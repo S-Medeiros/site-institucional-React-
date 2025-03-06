@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "watch:sass": "sass sass/main.scss public/style.css -w",
+    "compile:sass": "sass sass/main.scss public/style.css",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
