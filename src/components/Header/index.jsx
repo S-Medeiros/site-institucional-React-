@@ -1,12 +1,11 @@
 import LogoHeader from "../../assets/logo-site.svg"
 
 const Header = () => {
-    return ( <>
-        <div className="container bg-primary">
-            <h1>teste</h1>
+    return ( <div className="custom-dark-green">
+        <div className="container py-3">
             <img src={LogoHeader} alt="logo-header" />
         </div>
-    </> );
+    </div> );
 }
  
 export default Header;

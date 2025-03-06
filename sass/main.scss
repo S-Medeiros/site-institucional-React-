@@ -1,0 +1,103 @@
+// custom.scss
+
+// Definindo variáveis personalizadas (podem ser as mesmas que você já criou)
+$primary-font-family: "Roboto", sans-serif;
+$primary-font-weight: 600;
+$secondary-font-family: "Roboto Slab", serif;
+$secondary-font-weight: 400;
+$text-font-family: "Roboto", sans-serif;
+$text-font-weight: 400;
+$accent-font-family: "Roboto", sans-serif;
+$accent-font-weight: 500;
+
+// Definindo variáveis de cores
+$primary-color: #6EC1E4;
+$secondary-color: #8DB04A;
+$text-color: #228B22;
+$accent-color: #61CE70;
+$white-color: #FFFFFF;
+$black-color: #000000;
+$custom-dark-green: #387543;
+$bg-more-dark-green: #387543;
+
+
+// Configurando o Bootstrap para usar essas variáveis
+$font-family-base: $text-font-family;
+$font-weight-base: $text-font-weight;
+$headings-font-family: $primary-font-family;
+$headings-font-weight: $primary-font-weight;
+$btn-font-family: $accent-font-family;
+$btn-font-weight: $accent-font-weight;
+
+$body-color: $text-color;
+$body-bg: $white-color;
+$primary: $primary-color;
+$secondary: $secondary-color;
+$success: $accent-color;
+$dark: $custom-dark-green;
+
+
+// Importando o Bootstrap (do diretório node_modules)
+@use "../node_modules/bootstrap/scss/bootstrap";
+
+// Outras personalizações adicionais que você desejar
+.primary-font {
+    font-family: $primary-font-family;
+    font-weight: $primary-font-weight;
+}
+
+.secondary-font {
+    font-family: $secondary-font-family;
+    font-weight: $secondary-font-weight;
+}
+
+.text-font {
+    font-family: $text-font-family;
+    font-weight: $text-font-weight;
+}
+
+.accent-font {
+    font-family: $accent-font-family;
+    font-weight: $accent-font-weight;
+}
+
+.white-color-text {
+    color: $white-color;
+}
+
+.primary-color {
+    color: $primary-color;
+}
+
+.secondary-color {
+    color: $secondary-color;
+}
+
+.text-dark-green {
+    color: $text-color;
+}
+
+.text-color {
+    color: $text-color;
+}
+
+.accent-color {
+    color: $accent-color;
+}
+
+.white-color {
+    background-color: $white-color;
+}
+
+.black-color {
+    background-color: $black-color;
+}
+
+
+.custom-dark-green {
+    background-color: $custom-dark-green;
+}
+
+.custom-more-dark-green {
+    background-color: $bg-more-dark-green;
+}
