@@ -1,6 +1,12 @@
+import React from 'react';
+import  ImageCarousel from '../../components/Carousels';
+import BaixeApp from '../../components/BaixeApp';
+
 const HomePage = () => {
     return ( <>
-    <h1 className="">Teste</h1>
+
+    <ImageCarousel />
+    <BaixeApp />
     </> );
 }
  
