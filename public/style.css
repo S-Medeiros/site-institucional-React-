@@ -1,0 +1,105 @@
+.primary-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.secondary-font {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
+.text-font {
+  font-family: "Roboto", sans-navbar;
+}
+
+.white-color-text {
+  color: #FFFFFF !important;
+}
+
+.primary-color {
+  color: #6EC1E4;
+}
+
+.secondary-color {
+  color: #8DB04A;
+}
+
+.text-dark-green {
+  color: #228B22;
+}
+
+.text-color {
+  color: #228B22;
+}
+
+.accent-color {
+  color: #61CE70;
+}
+
+.white-color {
+  background-color: #FFFFFF;
+}
+
+.black-color {
+  background-color: #000000;
+}
+
+.custom-dark-green {
+  background-color: #387543;
+}
+
+.custom-more-dark-green {
+  background-color: #387543;
+}
+
+._header_item {
+  border-radius: 2rem !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+._header_item:hover {
+  background-color: #E5A000 !important;
+  color: #FFFFFF !important;
+  border-radius: 1rem !important;
+}
+
+.container-baixe-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.secao-baixe-app {
+  padding: 1rem;
+  background-color: #387543;
+  display: flex;
+  width: 100%;
+}
+
+.paragrafo-app {
+  width: 22rem;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.img-logo-app {
+  width: 8rem;
+}
+
+.botao-mascote-store {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.botao-mascote-store .botao-store {
+  display: flex;
+  flex-flow: column;
+}
+.botao-mascote-store .img-mascote-app {
+  width: 6rem;
+}
+
+/*# sourceMappingURL=style.css.map */
