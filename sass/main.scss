@@ -113,5 +113,46 @@ $dark: $custom-dark-green;
 ._header_item:hover {
     background-color: $color-btn !important;
     color: $white-color !important;
-    border-radius: 1.6rem !important;
+    border-radius: 1rem !important;
 }
+
+
+.container-baixe-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .secao-baixe-app {
+    padding: 1rem;
+    background-color: $main-color;
+    display: flex;
+    width: 100%;
+  }
+  
+  .paragrafo-app {
+    width: 22rem;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .img-logo-app {
+    width: 8rem;
+  }
+  
+  .botao-mascote-store {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  
+    & .botao-store {
+        display: flex;
+        flex-flow: column;
+    }
+  
+    & .img-mascote-app {
+        width: 6rem;
+    }
+  }
