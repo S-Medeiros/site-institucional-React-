@@ -1,14 +1,11 @@
-// custom.scss
+// @import "/sass/layout/header.scss";
 
 // Definindo variáveis personalizadas (podem ser as mesmas que você já criou)
 $primary-font-family: "Roboto", sans-serif;
 $primary-font-weight: 600;
 $secondary-font-family: "Roboto Slab", serif;
 $secondary-font-weight: 400;
-$text-font-family: "Roboto", sans-serif;
-$text-font-weight: 400;
-$accent-font-family: "Roboto", sans-serif;
-$accent-font-weight: 500;
+$text-font-family: "Roboto", sans-navbar;
 
 // Definindo variáveis de cores
 $primary-color: #6EC1E4;
@@ -19,15 +16,21 @@ $white-color: #FFFFFF;
 $black-color: #000000;
 $custom-dark-green: #387543;
 $bg-more-dark-green: #387543;
+$boxShadow: 0.1rem solid rgba(255,255,255, 0.3);
+$main-color: #387543;
+$bg: #fff;
+$bg-card: #8DB04A;
+$color-btn: #E5A000;
+$color-font: #228B22;
 
 
 // Configurando o Bootstrap para usar essas variáveis
 $font-family-base: $text-font-family;
-$font-weight-base: $text-font-weight;
+// $font-weight-base: $text-font-weight;
 $headings-font-family: $primary-font-family;
 $headings-font-weight: $primary-font-weight;
-$btn-font-family: $accent-font-family;
-$btn-font-weight: $accent-font-weight;
+// $btn-font-family: $accent-font-family;
+// $btn-font-weight: $accent-font-weight;
 
 $body-color: $text-color;
 $body-bg: $white-color;
@@ -37,8 +40,7 @@ $success: $accent-color;
 $dark: $custom-dark-green;
 
 
-// Importando o Bootstrap (do diretório node_modules)
-@use "../node_modules/bootstrap/scss/bootstrap";
+
 
 // Outras personalizações adicionais que você desejar
 .primary-font {
@@ -53,16 +55,16 @@ $dark: $custom-dark-green;
 
 .text-font {
     font-family: $text-font-family;
-    font-weight: $text-font-weight;
+    // font-weight: $text-font-weight;
 }
 
-.accent-font {
-    font-family: $accent-font-family;
-    font-weight: $accent-font-weight;
-}
+// .accent-font {
+//     font-family: $accent-font-family;
+//     font-weight: $accent-font-weight;
+// }
 
 .white-color-text {
-    color: $white-color;
+    color: $white-color !important;
 }
 
 .primary-color {
@@ -100,4 +102,16 @@ $dark: $custom-dark-green;
 
 .custom-more-dark-green {
     background-color: $bg-more-dark-green;
+}
+
+._header_item {
+    border-radius: 2rem !important;
+    color: white !important;
+    font-weight: 600 !important;
+  }
+
+._header_item:hover {
+    background-color: $color-btn !important;
+    color: $white-color !important;
+    border-radius: 1.6rem !important;
 }
