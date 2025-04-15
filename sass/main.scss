@@ -118,41 +118,41 @@ $dark: $custom-dark-green;
 
 
 .container-baixe-app {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    display: flex !important;
+    justify-content: center !important;;
+    align-items: center !important;;
+    gap: 2rem !important;
   }
   
   .secao-baixe-app {
-    padding: 1rem;
-    background-color: $main-color;
-    display: flex;
-    width: 100%;
+    padding: 1rem !important;
+    background-color: $main-color !important;;
+    display: flex !important;
+    width: 100% !important;
   }
   
   .paragrafo-app {
-    width: 22rem;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 600;
+    width: 22rem !important;
+    font-size: 16px !important;;
+    color: #fff !important;
+    font-weight: 600 !important;;
   }
   
   .img-logo-app {
-    width: 8rem;
+    width: 8rem !important;
   }
   
   .botao-mascote-store {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+    display: flex !important;
+    align-items: center !important;
+    gap: 2rem !important;
   
     & .botao-store {
-        display: flex;
-        flex-flow: column;
+        display: flex !important;
+        flex-flow: column !important;
     }
   
     & .img-mascote-app {
-        width: 6rem;
+        width: 6rem!important;
     }
   }
