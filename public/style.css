@@ -192,44 +192,42 @@
   font-weight: 300;
 }
 
-.secao-lojas {
-  background-color: #387543;
-}
-
-.conteiner-lojas {
-  display: flex;
-}
-
 .grupo-lojas {
   display: flex;
   gap: 4.6rem;
 }
 
-.card-loja {
-  background-color: #8DB04A;
-  display: flex;
-  align-items: center;
-  flex-flow: column;
-  gap: 3rem;
-  padding: 2rem;
-  width: 19rem;
-  height: 23rem;
-  border-radius: 1.6rem;
-  box-shadow: 0 0.8rem 0.4rem rgba(0, 0, 0, 0.15);
+.card-mystore {
+  background-color: #8DB04A !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-flow: column !important;
+  gap: 1rem !important;
+  padding: 2rem !important;
+  width: 18rem !important;
+  height: 20rem !important;
+  border-radius: 1.6rem !important;
+  box-shadow: 0 0.8rem 0.4rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.conteudo-card-loja {
+.content-card-store {
+  display: flex;
+  justify-self: center !important;
   line-height: 1.8;
   font-size: 1.2rem;
 }
 
 .btn-card {
+  background-color: #E5A000;
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 10rem;
-  height: 3rem;
+  height: 2rem;
   border-radius: 2rem;
   box-shadow: 0.2rem 0.8rem 0.4rem rgba(0, 0, 0, 0.15);
+  font-weight: 600;
+  color: #fff;
 }
 .btn-card:hover {
   background-color: rgb(178, 124.3668122271, 0);
