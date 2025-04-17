@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .primary-font {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -102,6 +103,11 @@
   width: 6rem !important;
 }
 
+.mascote-encarte {
+  width: 22rem;
+  height: 22rem;
+}
+
 .secao-encartes {
   display: flex;
   width: 50%;
@@ -112,7 +118,6 @@
 .conteudo-encartes {
   display: flex;
   flex-flow: column;
-  width: 40rem;
   gap: 1.2rem;
 }
 
@@ -125,25 +130,46 @@
 .subtitulo-encartes {
   font-size: 32px;
   color: #228B22;
+  width: 25rem !important;
   font-weight: 600;
 }
 
-.encartes-frutas {
-  display: flex;
-  justify-content: end;
+.cesta-frutas-img {
+  width: 20rem !important;
+  display: flex !important;
 }
 
-.btn {
+.btn-encarte {
   padding: 1rem !important;
   background-color: #E5A000 !important;
   border-radius: 1rem !important;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
+  color: #fff !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
 }
-.btn:hover {
-  background-color: #E5A000;
+
+.btn-encarte:hover {
+  padding: 1rem !important;
+  background-color: #a87806 !important;
+  transition: 0.2s;
+  border-radius: 1rem !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+}
+
+/* Esconde por padrão */
+.hide-mobile {
+  display: none !important;
+}
+
+/* Mostra a partir de 768px */
+@media (min-width: 992px) {
+  .hide-mobile {
+    display: block !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

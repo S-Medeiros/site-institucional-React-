@@ -118,93 +118,115 @@ $dark: $custom-dark-green;
 
 
 .container-baixe-app {
-    display: flex !important;
-    justify-content: center !important;;
-    align-items: center !important;;
-    gap: 2rem !important;
-  }
+  display: flex !important;
+  justify-content: center !important;;
+  align-items: center !important;;
+  gap: 2rem !important;
+}
+
+.secao-baixe-app {
+  padding: 1rem !important;
+  background-color: $main-color !important;;
+  display: flex !important;
+  width: 100% !important;
+}
   
-  .secao-baixe-app {
-    padding: 1rem !important;
-    background-color: $main-color !important;;
-    display: flex !important;
-    width: 100% !important;
-  }
+.paragrafo-app {
+  width: 22rem !important;
+  font-size: 16px !important;;
+  color: #fff !important;
+  font-weight: 600 !important;;
+}
   
-  .paragrafo-app {
-    width: 22rem !important;
-    font-size: 16px !important;;
-    color: #fff !important;
-    font-weight: 600 !important;;
-  }
-  
-  .img-logo-app {
-    width: 6rem !important;
-  }
-  
-  .botao-mascote-store {
-    display: flex !important;
-    align-items: center !important;
-    gap: 2rem !important;
-  
-    & .botao-store {
-        display: flex !important;
-        flex-flow: column !important;
-    }
-  
-    & .img-mascote-app {
-        width: 6rem!important;
-    }
+.img-logo-app {
+  width: 6rem !important;
+}
+
+.botao-mascote-store {
+  display: flex !important;
+  align-items: center !important;
+  gap: 2rem !important;
+
+  & .botao-store {
+      display: flex !important;
+      flex-flow: column !important;
   }
 
+  & .img-mascote-app {
+      width: 6rem!important;
+  }
+}
 
 
 //   Sessão Encartes
 
+.mascote-encarte {
+  width: 22rem;
+  height: 22rem;
+}
 
- 
- .secao-encartes{
-   display: flex;
-   width: 50%;
-   flex-flow: column;
-   gap: 2rem;
- }
- 
- .conteudo-encartes {
-   display: flex;
-   flex-flow: column;
-   width: 40rem;
-   gap: 1.2rem;
- }
- 
- .titulo-encarte {
-   font-size: 26px;
-   color: #0A1ED8;
-   font-weight: 600;
- }
- 
- .subtitulo-encartes {
-   font-size: 32px;
-   color: #228B22;
-   font-weight: 600;
- }
- 
- .encartes-frutas {
-   display: flex;
-   justify-content: end;
- }
+.secao-encartes{
+  display: flex;
+  width: 50%;
+  flex-flow: column;
+  gap: 2rem;
+}
+
+.conteudo-encartes {
+  display: flex;
+  flex-flow: column;
+  gap: 1.2rem;
+}
+
+.titulo-encarte {
+  font-size: 26px;
+  color: #0A1ED8;
+  font-weight: 600;
+}
+
+.subtitulo-encartes {
+  font-size: 32px;
+  color: #228B22;
+  width: 25rem!important;
+  font-weight: 600;
+}
+
+.cesta-frutas-img {
+  width: 20rem!important;
+  display: flex!important;
+}
 
 
- .btn {
-    padding: 1rem !important;
-    background-color: $color-btn !important;
-    border-radius: 1rem !important;
-    color: $bg;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
+.btn-encarte {
+   padding: 1rem !important;
+   background-color: $color-btn !important;
+   border-radius: 1rem !important;
+   color: $bg !important;
+   font-size: 20px!important;
+   font-weight: 500 !important;
+   cursor: pointer !important;
+}
 
-    &:hover {
-      background-color: $color-btn;
+.btn-encarte:hover {
+  padding: 1rem !important;
+  background-color: #a87806 !important;
+  transition: 0.2s;
+  border-radius: 1rem !important;
+  color: $bg !important;
+  font-size: 20px!important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+}
+
+/* Esconde por padrão */
+.hide-mobile {
+  display: none !important; 
+}
+
+/* Mostra a partir de 768px */
+@media (min-width: 992px) {
+  .hide-mobile {
+    display: block !important;
   }
 }
+
