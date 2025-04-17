@@ -35,7 +35,7 @@ const ImageCarousel = () => {
             className="d-block w-100"
             src={image}
             alt={`Slide ${idx + 1}`}
-            style={{ height: "540px", objectFit: "cover" }}
+            style={{ height: "auto", objectFit: "cover" }}
           />
         </Carousel.Item>
       ))}

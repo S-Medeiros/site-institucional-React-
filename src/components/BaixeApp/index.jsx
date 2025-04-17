@@ -9,62 +9,62 @@ import MascoteApp from "../../assets/baixe-agora.png"; // Importação do mascot
 const BaixeApp = () => {
   return (
     <section className="secao-baixe-app">
-      <Container className="container-baixe-app text-center">
+      <Container className="d-flex container-baixe-app text-center">
 
-
-        <Row className="d-flex justify-content-center">
-          <Col className="d-flex align-items-center" md={12} lg={12}>
-            <p className="paragrafo-app">
-              FAÇA SUAS COMPRAS NO MEDEIROS SUPERMERCADO SEM SAIR DE CASA
-            </p>
-            <img
-              src={LogoApp}
-              alt="logo app"
-              className="img-logo-app mb-3" style={{ width: "100px" }}
-            />
-          </Col>
-        </Row>
 
         <Row className="d-flex">
-          <Col md={2} lg={2} className="text-center">
-            <p className="paragrafo-app">BAIXE O APLICATIVO: MEDEIROS</p>
+          <Col className="d-flex flex-coloum justify-content-center" sm={12} md={12} lg={4}>
+            <Col className="d-flex align-items-center gap-3" sm={12} md={12} lg={12}>
+              <p className="paragrafo-app">
+                FAÇA SUAS COMPRAS NO MEDEIROS SUPERMERCADO SEM SAIR DE CASA
+              </p>
+              <img
+                src={LogoApp}
+                alt="logo app"
+                className="img-logo-app mb-3" style={{ width: "100px" }}
+              />
+            </Col>
           </Col>
-        </Row>
-
-
-        <Row className="botao-mascote-store align-items-center">
-          <Col md={4} className="text-center">
-            <div className="botao-store d-flex flex-column">
-              <a
-                href="https://apps.apple.com/br/app/medeiros/id1383747653"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={AppStore}
-                  alt="app store"
-                  className="img-logo-app"
-                />
-              </a>
-              <a
-                href="https://play.google.com/store/apps/details?id=mercadapp.fgl.com.medeiros&hl=pt_BR"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={PlayStore}
-                  alt="play store"
-                  className="img-logo-app mt-2"
-                />
-              </a>
-            </div>
+          <Col className="d-flex" sm={12} md={12} lg={4}>
+            <Col sm={12} md={4} lg={12} className="text-center d-flex align-items-center">
+              <p className="paragrafo-app">BAIXE O APLICATIVO: MEDEIROS SUPERMERCADO</p>
+            </Col>
           </Col>
-          <Col md={4} className="text-center">
-            <img
-              src={MascoteApp}
-              alt="mascote app"
-              className="img-mascote-app"
-            />
+          <Col className="botao-mascote-store" sm={12} md={12} lg={4}>
+            <Col sm={4} md={4} lg={4} className="text-center">
+              <div className="botao-store">
+                <a
+                  href="https://apps.apple.com/br/app/medeiros/id1383747653"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={AppStore}
+                    alt="app store"
+                    className="img-logo-app"
+                  />
+                </a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=mercadapp.fgl.com.medeiros&hl=pt_BR"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={PlayStore}
+                    alt="play store"
+                    className="img-logo-app mt-2"
+                  />
+                </a>
+              </div>
+            </Col>
+          
+            <Col md={6} className="text-center">
+              <img
+                src={MascoteApp}
+                alt="mascote app"
+                className="img-mascote-app"
+              />
+            </Col>
           </Col>
         </Row>
       </Container>
