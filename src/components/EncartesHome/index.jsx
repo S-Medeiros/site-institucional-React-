@@ -21,7 +21,7 @@ const EncartesHome = () => {
                         <button className="btn-encarte">OFERTAS DA SEMANA</button>
                     </div>
 
-                    <div className="hide-mobile">
+                    <div className="hide-mobile cesta-frutas">
                         <img className="cesta-frutas-img" src={CestaDeFrutas} alt="cesta de frutas" />
                     </div>
                 </Col>

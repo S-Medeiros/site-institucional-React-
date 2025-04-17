@@ -134,28 +134,35 @@
   font-weight: 600;
 }
 
+.cesta-frutas {
+  margin-left: 15rem;
+  margin-top: 2.2rem;
+}
+
 .cesta-frutas-img {
   width: 20rem !important;
   display: flex !important;
 }
 
 .btn-encarte {
-  padding: 1rem !important;
+  width: 280px !important;
+  height: 48px !important;
   background-color: #E5A000 !important;
   border-radius: 1rem !important;
   color: #fff !important;
-  font-size: 20px !important;
+  font-size: 24px !important;
   font-weight: 500 !important;
   cursor: pointer !important;
 }
 
 .btn-encarte:hover {
-  padding: 1rem !important;
+  width: 280px !important;
+  height: 48px !important;
   background-color: #a87806 !important;
   transition: 0.2s;
   border-radius: 1rem !important;
   color: #fff !important;
-  font-size: 20px !important;
+  font-size: 24px !important;
   font-weight: 500 !important;
   cursor: pointer !important;
 }
