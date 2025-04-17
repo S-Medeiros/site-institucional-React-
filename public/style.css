@@ -178,5 +178,61 @@
     display: block !important;
   }
 }
+.titulo-secao-lojas {
+  font-size: 1.8rem;
+  width: 3rem;
+  height: 7rem;
+  color: #fff;
+  border-left: solid 0.4rem #ffb20f;
+  flex: 6;
+  padding: 0.52rem 0 0.52rem 2rem;
+}
+
+.strong-titulo-store {
+  font-weight: 300;
+}
+
+.secao-lojas {
+  background-color: #387543;
+}
+
+.conteiner-lojas {
+  display: flex;
+}
+
+.grupo-lojas {
+  display: flex;
+  gap: 4.6rem;
+}
+
+.card-loja {
+  background-color: #8DB04A;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  gap: 3rem;
+  padding: 2rem;
+  width: 19rem;
+  height: 23rem;
+  border-radius: 1.6rem;
+  box-shadow: 0 0.8rem 0.4rem rgba(0, 0, 0, 0.15);
+}
+
+.conteudo-card-loja {
+  line-height: 1.8;
+  font-size: 1.2rem;
+}
+
+.btn-card {
+  display: flex;
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2rem;
+  box-shadow: 0.2rem 0.8rem 0.4rem rgba(0, 0, 0, 0.15);
+}
+.btn-card:hover {
+  background-color: rgb(178, 124.3668122271, 0);
+}
 
 /*# sourceMappingURL=style.css.map */
