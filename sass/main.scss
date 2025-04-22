@@ -237,3 +237,62 @@ $dark: $custom-dark-green;
   }
 }
 
+
+//Nossas lojas
+
+.titulo-secao-lojas {
+  font-size: 1.8rem;
+  width: 3rem;
+  height: 7rem;
+  color: $bg;
+  border-left: solid 0.4rem #ffb20f;;
+  flex: 6;
+  padding: 0.52rem 0 0.52rem 2rem;
+}
+
+.strong-titulo-store {
+  font-weight: 300;
+}
+
+
+.grupo-lojas {
+  display: flex;
+  gap: 4.6rem;
+}
+
+.card-mystore {
+  background-color: $bg-card !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-flow: column !important;
+  text-align: left !important;
+  gap: 1rem !important;
+  padding: 1.6rem !important;
+  width: 16rem !important;
+  height: 20rem !important;
+  border-radius: 1.6rem !important;
+  box-shadow: 0 0.8rem 0.4rem rgba(0, 0, 0, 0.15) !important;;
+}
+
+.content-card-store{
+  display: flex!important;
+  justify-self: center !important;
+  line-height: 1.6!important;
+  font-size: 1.2rem!important;
+}
+
+.btn-card {
+  background-color: $color-btn;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: rem;
+  border-radius: 2rem;
+  box-shadow: 0.2rem 0.8rem 0.4rem rgba(0, 0, 0, 0.15);
+  font-weight: 600;
+  color: $bg;
+    &:hover {
+      background-color: darken($color-btn, 10%);
+  }
+}
