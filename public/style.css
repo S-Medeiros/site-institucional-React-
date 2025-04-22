@@ -202,19 +202,20 @@
   display: flex !important;
   align-items: center !important;
   flex-flow: column !important;
+  text-align: left !important;
   gap: 1rem !important;
-  padding: 2rem !important;
-  width: 18rem !important;
-  height: 20rem !important;
+  padding: 1.6rem !important;
+  width: 16rem !important;
+  height: 25rem !important;
   border-radius: 1.6rem !important;
   box-shadow: 0 0.8rem 0.4rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .content-card-store {
-  display: flex;
+  display: flex !important;
   justify-self: center !important;
-  line-height: 1.8;
-  font-size: 1.2rem;
+  line-height: 1.6 !important;
+  font-size: 1.2rem !important;
 }
 
 .btn-card {

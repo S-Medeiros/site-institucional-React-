@@ -10,17 +10,21 @@ const MyStores = () => {
 
         <section className='custom-more-dark-green p-5'>
             <Container>
-                <Row className='d-flex w-100'>
-                    <Col className='d-flex gap-5' sm={12} md={12} lg={2}>
+                <Row className='d-flex'>
+                    <Col className='d-flex gap-5 mb-5' sm={12} md={12} lg={2}>
                         <h3 className='titulo-secao-lojas'>Nossas <br/><span className='strong-titulo-store'>Lojas</span></h3>
                     </Col>
+
                     <Col className='d-flex gap-5 w-100' sm={12} md={12} lg={10}>
-                        <MyStoreCard endereco={'Av. J, 130 - Pref. José Walter, Fortaleza - CE'}/>
-                        <MyStoreCard endereco={'Av. I, 1313 - Pref. José Walter, Fortaleza - CE'}/>
-                        <MyStoreCard endereco={'Av. XX, n 230 - Cj - Jereissati II, Pacatuba - CE'}/>
-                        <MyStoreCard endereco={'R. Gen. Rabelo, 447 - Siqueira, Fortaleza - CE'}/>
-                        <MyStoreCard endereco={'R. Evaldo Braga, 821 - Conj. Palmeiras, Fortaleza - CE, 60870-210'}/>
+                        <MyStoreCard endereco={'Av. J, 130 - Pref. José Walter, Fortaleza - CE'} horario={'Todos os dias: 6:00 até as 22:00'}/>
+                        <MyStoreCard endereco={'Av. I, 1313 - Pref. José Walter, Fortaleza - CE'} horario={'Todos os dias: 6:00 até as 22:00'}/>
+                        <MyStoreCard endereco={'Av. XX, n 230 - Cj - Jereissati II, Pacatuba - CE'} horario={'Todos os dias: 6:00 até as 22:00'}/>
+                        <MyStoreCard endereco={'R. Gen. Rabelo, 447 - Siqueira, Fortaleza - CE'}horario={'Todos os dias: 6:00 até as 22:00'}/>
+                        <MyStoreCard endereco={'R. Evaldo Braga, 821 - Conj. Palmeiras, Fortaleza - CE, 60870-210'}horario={'Todos os dias: 6:00 até as 22:00'}/>
+
+                        <MyStoreCard endereco={'R. Roque Medeiros, 1151 - Mondubim , Fortaleza - CE'}horario={'Seg a Sex: 7:00 até às 17:00'}/>
                     </Col>
+                    
                 </Row>
             </Container>
         </section>
