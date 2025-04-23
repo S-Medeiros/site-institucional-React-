@@ -243,13 +243,13 @@
 
 .secao-rodape {
   display: flex;
-  gap: 10rem;
+  gap: 2rem;
   justify-content: center;
   align-items: start;
 }
 
 .logo-rodape {
-  width: 18rem;
+  width: 12rem;
   height: auto;
 }
 
@@ -279,7 +279,7 @@
 
 .rodape-copyright {
   padding: 0.44rem;
-  font-size: 1.6rem;
+  font-size: 1rem;
   text-align: center;
   background-color: silver;
 }

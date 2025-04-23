@@ -3,14 +3,14 @@ import LogoHeader from "../../assets/logo-site.svg"
 
 const Footer = () => {
     return ( <>
-        <footer class="secao container">
+        <footer className="secao container p-5">
         
-        <div class="secao-rodape row d-flex" >
-            <div class="col-sm-12 col-xxl-2">
-                <img src={LogoHeader} alt="logo medeiros" class="logo-rodape"/>
+        <div className="secao-rodape row d-flex" >
+            <div className="col-sm-12 col-xxl-2">
+                <img src={LogoHeader} alt="logo medeiros" className="logo-rodape"/>
             </div>
 
-            <div class="col-xxl-1 coluna-footer">
+            <div className="col-xxl-2 coluna-footer">
                 <h4 class="titulos-footer">Informações</h4>
                 <div class="coluna-footer--opcoes">
 
@@ -42,18 +42,18 @@ const Footer = () => {
             </div>
 
 
-            <div class="col-xxl-1 coluna-footer">
-                <h4 class="titulos-footer">Formas de pagamento</h4>
+            <div className="col-xxl-2 coluna-footer">
+                <h4 className="titulos-footer">Formas de pagamento</h4>
             </div>
 
 
-            <div class="col-xxl-1 coluna-footer">
+            <div className="col-xxl-2 coluna-footer">
                 <h4 class="titulos-footer">Atendimento ao cliente</h4>
                 <p>(85) 3291-2233</p>
             </div>
 
 
-            <div class="col-xxl-2 coluna-footer">
+            <div className="col-xxl-2 coluna-footer">
                 <div class="coluna-footer">
                     <h4 class="titulos-footer">Acompanhe nossos canais</h4>
                     <div>
