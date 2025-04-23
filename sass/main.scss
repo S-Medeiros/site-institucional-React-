@@ -118,11 +118,17 @@ $dark: $custom-dark-green;
 
 
 .icons {
-  width: 1rem !important;
+  width: 1.2rem !important; /* ou algo como 4rem */
   display: flex;
   align-items: center;
+  gap: 1rem;
   color: $color-btn;
+
+  & :hover {
+    width: 1.8rem !important;
+  }
 }
+
 
 
 .container-baixe-app {
@@ -336,12 +342,13 @@ $dark: $custom-dark-green;
 }
 
 .logo-redes-sociais-footer {
-  width: 5rem;
+  width: 3rem !important;
 }
 
 .logo-app-footer {
   display: flex;
   flex-flow: column;
+  width: 5rem !important;
 }
 
 .rodape-copyright{
