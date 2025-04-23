@@ -41,7 +41,8 @@ const BaixeApp = () => {
                   <img
                     src={AppStore}
                     alt="app store"
-                    className="img-logo-app"
+                    className="img-logo-app "
+                    
                   />
                 </a>
                 <a

@@ -117,6 +117,20 @@ $dark: $custom-dark-green;
 }
 
 
+.icons {
+  width: 1.2rem !important; /* ou algo como 4rem */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: $color-btn;
+
+  & :hover {
+    width: 1.8rem !important;
+  }
+}
+
+
+
 .container-baixe-app {
   display: flex !important;
   justify-content: center !important;;
@@ -295,4 +309,51 @@ $dark: $custom-dark-green;
     &:hover {
       background-color: darken($color-btn, 10%);
   }
+}
+
+
+// Footer
+
+.secao-rodape{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: start;
+}
+
+.logo-rodape {
+  width: 12rem;
+  height: auto;
+}
+
+.coluna-footer {
+  display: flex;
+  flex-flow: column;
+  gap: 1.4rem;
+  line-height: 1.1;
+}
+
+.coluna-footer--opcoes {
+  line-height: 1.6;
+}
+
+.titulos-footer {
+  font-size: 1.2rem;
+}
+
+.logo-redes-sociais-footer {
+  width: 3rem !important;
+}
+
+.logo-app-footer {
+  display: flex;
+  flex-flow: column;
+  width: 5rem !important;
+}
+
+.rodape-copyright{
+  padding: 0.44rem;
+  font-size: 1rem;
+  text-align: center;
+  background-color: silver;
 }
