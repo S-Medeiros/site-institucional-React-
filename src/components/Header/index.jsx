@@ -16,8 +16,9 @@ const Header = () => {
             <div className='d-flex gap-5'>
 
               <div className='d-flex gap-3 icons'>
-                <img src={LogoInstagram} alt="logo-instagram" />
-                <img src={LogoFacebook} alt="logo-faceboook" />
+                <a href="https://www.facebook.com/medeirossupermercados/" target='_blank'><img src={LogoInstagram} alt="logo-instagram" className='icons' /></a>
+                <a href="https://www.instagram.com/medeirossupermercados"target='_blank'><img src={LogoFacebook} alt="logo-faceboook" className='icons' /></a>
+                
               </div>
 
               <Navbar expand="lg">
