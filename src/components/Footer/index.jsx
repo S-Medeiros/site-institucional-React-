@@ -1,5 +1,8 @@
 import LogoHeader from "../../assets/logo-site.svg"
-
+import PlayStore from "../../assets/play-store.png";
+import AppStore from "../../assets/app-store.png";
+import LogoFacebookPng from "../../assets/icon-facebook.png";
+import LogoInstagramPng from "../../assets/icon-instagram.png";
 
 const Footer = () => {
     return ( <>
@@ -57,15 +60,27 @@ const Footer = () => {
                 <div class="coluna-footer">
                     <h4 class="titulos-footer">Acompanhe nossos canais</h4>
                     <div>
-                        <a href="https://www.facebook.com/medeirossupermercados/" target="_blank"><img src="./assets/img/icon-facebook.png" alt="logo facebook" class="logo-redes-sociais-footer"/></a>
-                        <a href="https://www.instagram.com/medeirossupermercados/" target="_blank"><img src="./assets/img/icon-instagram.png" alt="logo instagram" class="logo-redes-sociais-footer"/></a>
+                        <a href="https://www.facebook.com/medeirossupermercados/" target="_blank"><img src={LogoFacebookPng} alt="logo facebook" class="logo-redes-sociais-footer"/></a>
+                        <a href="https://www.instagram.com/medeirossupermercados/" target="_blank"><img src={LogoInstagramPng} alt="logo instagram" className="logo-redes-sociais-footer"/></a>
                     </div>
                 </div>
                 <div class="coluna-footer">
                     <h4 class="titulos-footer">Compre sem sair de casa</h4>
                     <div class="logo-app-footer">
-                        <a href="https://apps.apple.com/br/app/medeiros/id1383747653" target="_blank"><img src="./assets/img/app-store.png" alt="logo app store" class="img-logo-app"/></a>
-                        <a href="https://play.google.com/store/apps/details?id=mercadapp.fgl.com.medeiros&hl=pt_BR" target="_blank"><img src="assets/img/play-store.png" alt="logo play store" class="img-logo-app"/></a>
+                        <a href="https://play.google.com/store/apps/details?id=mercadapp.fgl.com.medeiros&hl=pt_BR">
+                        <img className="botao-store img-logo-app" src={PlayStore} alt="play store"  target="_blank"/></a>
+
+                        <a
+                          href="https://apps.apple.com/br/app/medeiros/id1383747653"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            src={AppStore}
+                            alt="app store"
+                            className="img-logo-app"
+                          />
+                        </a>
                     </div>
                 </div>
             </div>
