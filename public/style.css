@@ -281,6 +281,10 @@ ion-icon {
   color: #fff;
 }
 
+.realce {
+  font-weight: 600;
+}
+
 .secao-rodape {
   display: flex;
   gap: 2rem;
