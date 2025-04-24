@@ -357,6 +357,57 @@ ion-icon {
 }
 
 
+//Trabalhe conosco
+
+.card-vaga {
+  background-color: orange; /* sempre laranja */
+  border-radius: 15px;
+  width: 300px;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  min-height: 420px; /* altura mínima */
+}
+
+.card-vaga.expanded {
+  min-height: auto; /* libera altura conforme conteúdo */
+}
+
+.imagem-vaga {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.titulo-vaga {
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+  text-align: center;
+  color: white;
+}
+
+.botao-detalhes {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 1rem auto;
+  display: block;
+}
+
+.detalhes-vaga {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: white;
+  white-space: pre-line; /* mantém as quebras de linha do texto */
+}
+
+
 // Footer
 
 .secao-rodape{
