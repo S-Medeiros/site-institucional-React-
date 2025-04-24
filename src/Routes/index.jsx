@@ -4,6 +4,7 @@ import HomePage from "../pages/HomePage";
 import Offers from "../pages/Offers/index.jsx"
 import PageStore from "../pages/Stores/index.jsx";
 import About from "../pages/About/index.jsx";
+import Work from "../pages/Work/index.jsx";
 
 
 const RouterPages = () => {
@@ -15,6 +16,7 @@ const RouterPages = () => {
           <Route path="ofertas" element={<Offers />} />
           <Route path="lojas" element={<PageStore />} />
           <Route path="sobre" element={<About />} />
+          <Route path="trabalhe_conosco" element={<Work />} />
         </Route>
       </Routes>
     </BrowserRouter>
