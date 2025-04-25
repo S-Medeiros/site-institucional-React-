@@ -11,8 +11,13 @@ const MyStoreCard = ({endereco, horario}) => {
                     
                 </div>
                 
-                    <Link className="d-flex justify-content-center" to="./lojas">
-                        <button className="btn-card">VER LOJA</button>
+                    <Link
+                    className="d-flex justify-content-center btn-card"
+                    to="./lojas" 
+                    target="_blank"
+                    
+                    >
+                        VER LOJA
                     </Link>
 
             </div>

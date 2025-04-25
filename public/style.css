@@ -173,6 +173,7 @@
   text-align: center !important;
   cursor: pointer !important;
   text-decoration: none !important;
+  box-shadow: 0.2rem 0.8rem 0.4rem rgba(0, 0, 0, 0.15);
 }
 
 .btn-encarte:hover {
@@ -242,6 +243,7 @@
   box-shadow: 0.2rem 0.8rem 0.4rem rgba(0, 0, 0, 0.15);
   font-weight: 600;
   color: #fff;
+  text-decoration: none;
 }
 .btn-card:hover {
   background-color: rgb(178, 124.3668122271, 0);
