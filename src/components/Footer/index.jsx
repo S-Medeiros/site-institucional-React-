@@ -31,23 +31,23 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="col-xxl-2 coluna-footer">
-                    <h4 className="titulos-footer">Formas de pagamento</h4>
+                    <h4 className="titulos-footer">Formas de pagamento:</h4>
                     <img src={bandeiraCartao} alt="cartoes" />
                 </div>
                 <div className="col-xxl-2 coluna-footer">
-                    <h4 class="titulos-footer">Atendimento ao cliente</h4>
+                    <h4 class="titulos-footer">Atendimento ao cliente:</h4>
                     <p>(85) 3291-2233</p>
                 </div>
                 <div className="col-xxl-2 coluna-footer">
                     <div class="coluna-footer">
-                        <h4 class="titulos-footer">Acompanhe nossos canais</h4>
+                        <h4 class="titulos-footer">Acompanhe nossos canais:</h4>
                         <div>
                             <a href="https://www.facebook.com/medeirossupermercados/" target="_blank"><img src={LogoFacebookPng} alt="logo facebook" class="logo-redes-sociais-footer"/></a>
                             <a href="https://www.instagram.com/medeirossupermercados/" target="_blank"><img src={LogoInstagramPng} alt="logo instagram" className="logo-redes-sociais-footer"/></a>
                         </div>
                     </div>
                     <div class="coluna-footer">
-                        <h4 class="titulos-footer">Compre sem sair de casa</h4>
+                        <h4 class="titulos-footer">Compre sem sair de casa:</h4>
                         <div class="logo-app-footer">
                             <a href="https://play.google.com/store/apps/details?id=mercadapp.fgl.com.medeiros&hl=pt_BR">
                             <img className="botao-store img-logo-app" src={PlayStore} alt="play store"  target="_blank"/></a>
