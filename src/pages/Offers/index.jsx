@@ -15,8 +15,12 @@ const Offers = () => {
             <img src={Encarte2} alt="Encarte2" className="img-fluid "/>
             <h3 className="text-light bg-primary">Encartes FDS - Ofertas validas de <strong>25 a 27 de Abril</strong> de 2025</h3>
 
-          <Link className="d-flex justify-content-center" to="https://drive.google.com/drive/folders/1AlLyojjIG41AMrJc-_-aCtztK5tEKoYZ">
-            <button className="btn-encarte">BAIXE NOSSO ENCARTE</button>
+          <Link 
+            target="_blank"
+            to="https://drive.google.com/drive/folders/1AlLyojjIG41AMrJc-_-aCtztK5tEKoYZ"
+            className="d-flex justify-content-center btn-encarte"
+          >
+            BAIXE NOSSO ENCARTE
           </Link>
         </div>
 

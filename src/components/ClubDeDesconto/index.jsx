@@ -9,6 +9,7 @@ const ClubeDeDesconto = () => {
             <div className="d-flex align-items-center justify-content-center p-5">
                 <div className="d-flex flex-column gap-5">
                     <h1>Cadastre-se <span className="clubeSpan"><br />GRÁTIS</span> para economizar <sapn className="clubeSpan">MAIS!</sapn></h1>
+                    
                     <Link
                       target="_blank"
                       to="https://cadastramento-medeiros.mercafacil.com/home"

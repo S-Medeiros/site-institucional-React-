@@ -19,8 +19,11 @@ const EncartesHome = () => {
                     <h3 className="subtitulo-encartes">Confira as ofertas do Medeiros Supermercado</h3>
 
                     <div>
-                      <Link to="/ofertas">
-                        <button className="btn-encarte">OFERTAS DA SEMANA</button>
+                      <Link
+                      target="_blank"
+                      to="/ofertas"
+                      className="btn-encarte border-success">
+                        OFERTAS DA SEMANA
                       </Link>
                     </div>
 

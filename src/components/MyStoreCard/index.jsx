@@ -15,7 +15,6 @@ const MyStoreCard = ({endereco, horario}) => {
                     className="d-flex justify-content-center btn-card"
                     to="./lojas" 
                     target="_blank"
-                    
                     >
                         VER LOJA
                     </Link>
