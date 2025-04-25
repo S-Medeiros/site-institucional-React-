@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import MascoteEncarte from "../../assets/mascote-encarte.png";
 import CestaDeFrutas from "../../assets/cesta-de-frutas.png";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const EncartesHome = () => {
   return (
@@ -18,7 +19,9 @@ const EncartesHome = () => {
                     <h3 className="subtitulo-encartes">Confira as ofertas do Medeiros Supermercado</h3>
 
                     <div>
+                      <Link to="/ofertas">
                         <button className="btn-encarte">OFERTAS DA SEMANA</button>
+                      </Link>
                     </div>
 
                     <div className="hide-mobile cesta-frutas">
