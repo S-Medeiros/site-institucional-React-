@@ -75,6 +75,7 @@ const PageWork = () => {
         <h1>Venha fazer parte da família Medeiros!</h1>
         <h2>Oportunidades abertas:</h2>
       </div>
+      <h4>Envie seu currículo para o E-MAIL <br /><span className="clubeSpan" >vagas@medeirossupermercado.com.br</span></h4>
 
       {lojas.map((loja, index) => (
         <div key={index}>
