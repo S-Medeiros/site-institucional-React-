@@ -342,6 +342,7 @@ ion-icon {
   gap: 2rem;
   justify-content: center;
   align-items: start;
+  color: #E5A000;
 }
 
 .logo-rodape {
@@ -357,7 +358,12 @@ ion-icon {
 }
 
 .coluna-footer--opcoes {
-  line-height: 1.6;
+  line-height: 1.8;
+  text-decoration: none;
+  color: #fff;
+}
+.coluna-footer--opcoes :hover {
+  color: #E5A000;
 }
 
 .titulos-footer {
@@ -375,10 +381,10 @@ ion-icon {
 }
 
 .rodape-copyright {
-  padding: 0.44rem;
+  padding-top: 0.44rem;
   font-size: 1rem;
   text-align: center;
-  background-color: silver;
+  background-color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
