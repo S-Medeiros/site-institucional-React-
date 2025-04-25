@@ -168,6 +168,7 @@
   font-size: 24px !important;
   font-weight: 500 !important;
   cursor: pointer !important;
+  text-decoration: none !important;
 }
 
 .btn-encarte:hover {
@@ -283,6 +284,10 @@ ion-icon {
   box-shadow: 0.2rem 0.8rem 0.4rem rgba(0, 0, 0, 0.15);
   font-weight: 600;
   color: #fff;
+}
+
+.clubeSpan {
+  color: #E5A000;
 }
 
 .realce {
