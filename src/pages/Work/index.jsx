@@ -1,99 +1,114 @@
-import { Container } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
+import { useState } from "react";
 import CardVacancies from "../../components/CardVacancies/index.jsx";
 import Vaga1 from "../../assets/Frame2.jpg";
 
-const detalhesTexto = `
-Atividades: Realizar o atendimento aos clientes usando os sistemas da loja
+const detalhesOpCaixa = `Atividades: Registra vendas, recebe pagamentos e fornece troco aos clientes.`;
+const detalhesFrenteDeLoja = `Responsável pelo auxilio aos operadores e gerente de loja. Realiza sangria, cancelamentos e atendimento ao cliente.`;
+const detalhesAjudanteEntregas = `Auxilia na carga, descarga e entrega de mercadorias.`;
+const detalhesRepositor = `Organiza e repõe produtos nas prateleiras da loja.`
+const detalhesRepositorFlv = `Cuida da organização, reposição e qualidade de frutas, verduras e legumes.`
+const detalhesPrevencao = `Monitora a loja para evitar furtos, perdas e garantir a segurança.`
+const detalhesAuxDeposito = `Auxilia na organização, movimentação e controle de mercadorias no depósito.`
+const detalhesFinanceiro = `Auxilia nas atividades financeiras, como contas a pagar/receber, lançamentos e organização de documentos.`
+const detalhesBalconistaFrios = `Atender clientes no balcão de frios, manter a organização e a higiene do balcão, garantindo a correta exposição e conservação dos queijos, embutidos e outros itens., informações e realizando a pesagem e embalagem.`
 
-Local: Mercantil Medeiros
 
-Disponibilidade de horários: 44 horas semanais
-
-Desejável: Ter 18 anos ou mais; Ensino médio completo;
-
-Remuneração Salarial: De acordo com o Plano de Cargos e Salários.
-
-Prazo para envio dos currículos: Sem prazo definido
-
-*Enviar com telefone atualizado*
-`;
-
-const detalhesTexto2 = `
-Atividades: Organizar e repor mercadorias nas gôndolas, prateleiras e demais áreas de exposição da loja, seguindo o layout estabelecido.
-
-Local: Mercantil Medeiros Filial Pacatuba
-
-Disponibilidade de horários: 44 horas semanais
-
-Desejável: Ter 18 anos ou mais; Ensino médio completo;
-
-Remuneração Salarial: De acordo com o Plano de Cargos e Salários.
-
-Prazo para envio dos currículos: Sem prazo definido
-
-*Enviar com telefone atualizado*
-`;
-
-const detalhesTexto3 = `
-Atividades: Receber, analisar e classificar documentos de contas a pagar, como boletos, notas fiscais e faturas.
-Realizar o lançamento e o controle de todas as obrigações financeiras da empresa no sistema de gestão.
-Preparar e executar os pagamentos aos fornecedores, garantindo o cumprimento dos prazos e condições negociadas.
-
-Local: Mercantil Medeiros Filial José Walter (Matriz)
-
-Disponibilidade de horários: 44 horas semanais
-
-Desejável: Ter 18 anos ou mais; Ensino médio completo;
-
-Remuneração Salarial: De acordo com o Plano de Cargos e Salários.
-
-Prazo para envio dos currículos: Sem prazo definido
-
-*Enviar com telefone atualizado*
-`;
+// Estrutura com todas as lojas e vagas
+const lojas = [
+  {
+    nome: "Loja 1 - Pref. José Walter Av. J",
+    vagas: [
+      { titulo: "OPERADOR DE CAIXA (ESTÁGIO)", detalhes: detalhesOpCaixa },
+      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
+      { titulo: "(PCD)", detalhes: detalhesOpCaixa },
+      { titulo: "ASSISTENTE FINANCEIRO", detalhes: detalhesFinanceiro },
+    ],
+  },
+  {
+    nome: "Loja 2 - Pref. José Walter Av. I",
+    vagas: [
+      { titulo: "AJUDANTE DE ENTREGA", detalhes: detalhesAjudanteEntregas },
+      { titulo: "REPOSITOR", detalhes: detalhesRepositor },
+      { titulo: "BALCONISTA DE FRIOS", detalhes: detalhesBalconistaFrios },
+      { titulo: "OPERADOR DE CAIXA (HORISTA)", detalhes: detalhesOpCaixa },
+      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
+    ],
+  },
+  {
+    nome: "Loja 3 - Pacatuba",
+    vagas: [],
+  },
+  {
+    nome: "Loja 4 - Siqueira",
+    vagas: [
+      { titulo: "OPERADOR DE CAIXA", detalhes: detalhesOpCaixa },
+      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
+      { titulo: "REPOSITOR FLV", detalhes: detalhesRepositorFlv },
+      { titulo: "ESTAGIARIO", detalhes: detalhesOpCaixa },
+      { titulo: "APRENDIZ", detalhes: detalhesPrevencao },
+    ],
+  },
+  {
+    nome: "Loja 5 - Conj. Palmeiras",
+    vagas: [
+      { titulo: "APRENDIZ", detalhes: detalhesPrevencao },
+      { titulo: "OP.CAIXA (ESTÁGIO / INTEGRAL)", detalhes: detalhesOpCaixa },
+      { titulo: "PREVENÇÃO DE PERDAS", detalhes: detalhesPrevencao },
+      { titulo: "AUX. DEPOSITO", detalhes: detalhesAuxDeposito },
+      { titulo: "REPOSITOR DE FRIOS", detalhes: detalhesRepositor },
+      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
+    ],
+  },
+];
 
 const PageWork = () => {
-    return ( <>
-        <Container className="p-5">
-            <div className="text-dark-green">
-                <h1>Venha fazer parte da família Medeiros!</h1>
-                <h2>Oportunidades abertas:</h2>
+  const [visiveis, setVisiveis] = useState({});
+
+  const toggleLoja = (nome) => {
+    setVisiveis((prev) => ({ ...prev, [nome]: !prev[nome] }));
+  };
+
+  return (
+    <Container className="p-5 d-flex flex-column gap-5">
+      <div className="text-dark-green">
+        <h1>Venha fazer parte da família Medeiros!</h1>
+        <h2>Oportunidades abertas:</h2>
+      </div>
+
+      {lojas.map((loja, index) => (
+        <div key={index}>
+          <div className="d-flex align-items-center justify-content-between">
+            <h3 className="m-0">{loja.nome}</h3>
+            <Button
+              variant="outline-success"
+              onClick={() => toggleLoja(loja.nome)}
+              size="sm"
+            >
+              {visiveis[loja.nome] ? "Ocultar vagas" : "Mostrar vagas"}
+            </Button>
+          </div>
+
+          {visiveis[loja.nome] && (
+            <div className="d-flex flex-wrap justify-content-center gap-4 mt-4">
+              {loja.vagas.length > 0 ? (
+                loja.vagas.map((vaga, idx) => (
+                  <CardVacancies
+                    key={idx}
+                    imagem={Vaga1}
+                    titulo={vaga.titulo}
+                    detalhes={vaga.detalhes}
+                  />
+                ))
+              ) : (
+                <h4 className="red-color-text">Sem vagas abertas no momento.</h4>
+              )}
             </div>
+          )}
+        </div>
+      ))}
+    </Container>
+  );
+};
 
-
-
-            <div className="d-flex flex-wrap justify-content-center gap-4 mt-5">
-                <CardVacancies
-                  imagem={Vaga1}
-                  titulo="OPERADOR DE CAIXA"
-                  detalhes={detalhesTexto2}
-                />
-                <CardVacancies
-                  imagem={Vaga1}
-                  titulo="REPOSITOR"
-                  detalhes={detalhesTexto}
-                />
-
-                <CardVacancies
-                  imagem={Vaga1}
-                  titulo="ASSISTENTE FINANCEIRO"
-                  detalhes={detalhesTexto3}
-                />
-
-                <CardVacancies
-                  imagem={Vaga1}
-                  titulo="ASSISTENTE FINANCEIRO"
-                  detalhes={detalhesTexto3}
-                />
-
-                <CardVacancies
-                  imagem={Vaga1}
-                  titulo="ASSISTENTE FINANCEIRO"
-                  detalhes={detalhesTexto3}
-                />
-            </div>
-        </Container>
-    </> );
-}
- 
 export default PageWork;

@@ -17,6 +17,10 @@
   color: #FFFFFF !important;
 }
 
+.red-color-text {
+  color: rgb(206, 31, 31);
+}
+
 .primary-color {
   color: #6EC1E4;
 }
