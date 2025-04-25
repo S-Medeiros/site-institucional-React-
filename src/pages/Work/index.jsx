@@ -3,29 +3,36 @@ import { useState } from "react";
 import CardVacancies from "../../components/CardVacancies/index.jsx";
 import Vaga1 from "../../assets/Frame2.jpg";
 
-const detalhesTexto = `Atividades: Realizar o atendimento aos clientes usando os sistemas da loja...`;
-const detalhesTexto2 = `Atividades: Organizar e repor mercadorias nas gôndolas, prateleiras...`;
-const detalhesTexto3 = `Atividades: Receber, analisar e classificar documentos de contas a pagar...`;
+const detalhesOpCaixa = `Atividades: Registra vendas, recebe pagamentos e fornece troco aos clientes.`;
+const detalhesFrenteDeLoja = `Responsável pelo auxilio aos operadores e gerente de loja. Realiza sangria, cancelamentos e atendimento ao cliente.`;
+const detalhesAjudanteEntregas = `Auxilia na carga, descarga e entrega de mercadorias.`;
+const detalhesRepositor = `Organiza e repõe produtos nas prateleiras da loja.`
+const detalhesRepositorFlv = `Cuida da organização, reposição e qualidade de frutas, verduras e legumes.`
+const detalhesPrevencao = `Monitora a loja para evitar furtos, perdas e garantir a segurança.`
+const detalhesAuxDeposito = `Auxilia na organização, movimentação e controle de mercadorias no depósito.`
+const detalhesFinanceiro = `Auxilia nas atividades financeiras, como contas a pagar/receber, lançamentos e organização de documentos.`
+const detalhesBalconistaFrios = `Atender clientes no balcão de frios, manter a organização e a higiene do balcão, garantindo a correta exposição e conservação dos queijos, embutidos e outros itens., informações e realizando a pesagem e embalagem.`
+
 
 // Estrutura com todas as lojas e vagas
 const lojas = [
   {
     nome: "Loja 1 - Pref. José Walter Av. J",
     vagas: [
-      { titulo: "OPERADOR DE CAIXA (ESTÁGIO)", detalhes: detalhesTexto2 },
-      { titulo: "FRENTE DE LOJA", detalhes: detalhesTexto3 },
-      { titulo: "(PCD)", detalhes: detalhesTexto },
-      { titulo: "ASSISTENTE FINANCEIRO", detalhes: detalhesTexto3 },
+      { titulo: "OPERADOR DE CAIXA (ESTÁGIO)", detalhes: detalhesOpCaixa },
+      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
+      { titulo: "(PCD)", detalhes: detalhesOpCaixa },
+      { titulo: "ASSISTENTE FINANCEIRO", detalhes: detalhesFinanceiro },
     ],
   },
   {
     nome: "Loja 2 - Pref. José Walter Av. I",
     vagas: [
-      { titulo: "AJUDANTE DE ENTREGA", detalhes: detalhesTexto2 },
-      { titulo: "REPOSITOR", detalhes: detalhesTexto },
-      { titulo: "BALCONISTA DE FRIOS", detalhes: detalhesTexto2 },
-      { titulo: "OPERADOR DE CAIXA (HORISTA)", detalhes: detalhesTexto2 },
-      { titulo: "FRENTE DE LOJA", detalhes: detalhesTexto2 },
+      { titulo: "AJUDANTE DE ENTREGA", detalhes: detalhesAjudanteEntregas },
+      { titulo: "REPOSITOR", detalhes: detalhesRepositor },
+      { titulo: "BALCONISTA DE FRIOS", detalhes: detalhesBalconistaFrios },
+      { titulo: "OPERADOR DE CAIXA (HORISTA)", detalhesOpCaixa: detalhesOpCaixa },
+      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
     ],
   },
   {
@@ -35,22 +42,22 @@ const lojas = [
   {
     nome: "Loja 4 - Siqueira",
     vagas: [
-      { titulo: "OPERADOR DE CAIXA", detalhes: detalhesTexto2 },
-      { titulo: "FRENTE DE LOJA", detalhes: detalhesTexto3 },
-      { titulo: "REPOSITOR FLV", detalhes: detalhesTexto },
-      { titulo: "ESTAGIARIO", detalhes: detalhesTexto2 },
-      { titulo: "APRENDIZ", detalhes: detalhesTexto2 },
+      { titulo: "OPERADOR DE CAIXA", detalhes: detalhesOpCaixa },
+      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
+      { titulo: "REPOSITOR FLV", detalhes: detalhesRepositorFlv },
+      { titulo: "ESTAGIARIO", detalhes: detalhesOpCaixa },
+      { titulo: "APRENDIZ", detalhes: detalhesPrevencao },
     ],
   },
   {
     nome: "Loja 5 - Conj. Palmeiras",
     vagas: [
-      { titulo: "APRENDIZ", detalhes: detalhesTexto2 },
-      { titulo: "OP.CAIXA (ESTÁGIO / INTEGRAL)", detalhes: detalhesTexto },
-      { titulo: "PREVENÇÃO DE PERDAS", detalhes: detalhesTexto3 },
-      { titulo: "AUX. DEPOSITO", detalhes: detalhesTexto3 },
-      { titulo: "REPOSITOR DE FRIOS", detalhes: detalhesTexto3 },
-      { titulo: "FRENTE DE LOJA", detalhes: detalhesTexto3 },
+      { titulo: "APRENDIZ", detalhes: detalhesPrevencao },
+      { titulo: "OP.CAIXA (ESTÁGIO / INTEGRAL)", detalhes: detalhesOpCaixa },
+      { titulo: "PREVENÇÃO DE PERDAS", detalhes: detalhesPrevencao },
+      { titulo: "AUX. DEPOSITO", detalhes: detalhesAuxDeposito },
+      { titulo: "REPOSITOR DE FRIOS", detalhes: detalhesRepositor },
+      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
     ],
   },
 ];
