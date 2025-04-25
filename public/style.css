@@ -160,6 +160,9 @@
 }
 
 .btn-encarte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 280px !important;
   height: 48px !important;
   background-color: #E5A000 !important;
@@ -167,6 +170,7 @@
   color: #fff !important;
   font-size: 24px !important;
   font-weight: 500 !important;
+  text-align: center !important;
   cursor: pointer !important;
   text-decoration: none !important;
 }

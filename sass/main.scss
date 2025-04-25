@@ -222,6 +222,9 @@ $dark: $custom-dark-green;
 
 
 .btn-encarte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 280px !important;
   height: 48px !important;
   background-color: $color-btn !important;
@@ -229,6 +232,7 @@ $dark: $custom-dark-green;
   color: $bg !important;
   font-size: 24px!important;
   font-weight: 500 !important;
+  text-align: center !important;
   cursor: pointer !important;
   text-decoration: none !important;
 }
