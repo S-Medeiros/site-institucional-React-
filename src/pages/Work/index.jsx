@@ -2,6 +2,7 @@ import { Container, Button } from "react-bootstrap";
 import { useState } from "react";
 import CardVacancies from "../../components/CardVacancies/index.jsx";
 import Vaga1 from "../../assets/Frame2.jpg";
+import trabalheConosco from "../../assets/trabalhe-conosco-mascote.jpg"
 
 const detalhesOpCaixa = `Atividades: Registra vendas, recebe pagamentos e fornece troco aos clientes.`;
 const detalhesFrenteDeLoja = `Responsável pelo auxilio aos operadores e gerente de loja. Realiza sangria, cancelamentos e atendimento ao cliente.`;
@@ -22,7 +23,6 @@ const lojas = [
       { titulo: "OPERADOR DE CAIXA (ESTÁGIO)", detalhes: detalhesOpCaixa },
       { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
       { titulo: "(PCD)", detalhes: detalhesOpCaixa },
-      { titulo: "ASSISTENTE FINANCEIRO", detalhes: detalhesFinanceiro },
     ],
   },
   {
@@ -95,7 +95,7 @@ const PageWork = () => {
                 loja.vagas.map((vaga, idx) => (
                   <CardVacancies
                     key={idx}
-                    imagem={Vaga1}
+                    imagem={trabalheConosco}
                     titulo={vaga.titulo}
                     detalhes={vaga.detalhes}
                   />

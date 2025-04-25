@@ -1,4 +1,6 @@
 
+import { Link } from "react-router-dom";
+
 const MyStoreCard = ({endereco, horario}) => {
     return ( <>
             <div className="card-mystore">
@@ -8,7 +10,10 @@ const MyStoreCard = ({endereco, horario}) => {
                     <p><strong>Tel:</strong> (85)3291-2233</p>
                     
                 </div>
-                    <button className="btn-card">VER LOJA</button>
+                
+                    <Link className="d-flex justify-content-center" to="./lojas">
+                        <button className="btn-card">VER LOJA</button>
+                    </Link>
 
             </div>
     </> );

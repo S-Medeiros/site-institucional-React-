@@ -230,6 +230,7 @@ $dark: $custom-dark-green;
   font-size: 24px!important;
   font-weight: 500 !important;
   cursor: pointer !important;
+  text-decoration: none !important;
 }
 
 .btn-encarte:hover {
@@ -354,6 +355,13 @@ ion-icon {
   font-weight: 600;
   color: $bg;
 }
+
+//Clube de descontos
+
+.clubeSpan {
+  color: $color-btn;
+}
+
 
 //Nossa historia
 
