@@ -94,7 +94,7 @@ const PageWork = () => {
                   />
                 ))
               ) : (
-                <h4>Sem vagas abertas no momento.</h4>
+                <h4 className="red-color-text">Sem vagas abertas no momento.</h4>
               )}
             </div>
           )}
