@@ -31,7 +31,7 @@ const lojas = [
       { titulo: "AJUDANTE DE ENTREGA", detalhes: detalhesAjudanteEntregas },
       { titulo: "REPOSITOR", detalhes: detalhesRepositor },
       { titulo: "BALCONISTA DE FRIOS", detalhes: detalhesBalconistaFrios },
-      { titulo: "OPERADOR DE CAIXA (HORISTA)", detalhesOpCaixa: detalhesOpCaixa },
+      { titulo: "OPERADOR DE CAIXA (HORISTA)", detalhes: detalhesOpCaixa },
       { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
     ],
   },
