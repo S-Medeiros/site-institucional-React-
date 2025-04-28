@@ -19,7 +19,7 @@ const Footer = () => {
 
                     <div className="coluna-footer--opcoes">
                         <div><a className="coluna-footer--opcoes" href="/">Home</a></div>
-                        <div><a className="coluna-footer--opcoes" href="/.ofertas">Ofertas</a></div>
+                        <div><a className="coluna-footer--opcoes" href="/ofertas">Ofertas</a></div>
                         <div><a className="coluna-footer--opcoes" href="/sobre">Sobre nós</a></div>
                         <div><a className="coluna-footer--opcoes" href="/lojas">Nossas Lojas</a></div>
                         <div><a className="coluna-footer--opcoes" href="/">Ação Social</a></div>

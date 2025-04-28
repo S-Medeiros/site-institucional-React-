@@ -30,7 +30,7 @@ const ImageCarousel = () => {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
       {images.map((image, idx) => (
-        <Carousel.Item key={idx}>
+        <Carousel.Item className="color-danger" key={idx}>
           <img
             className="d-block w-100"
             src={image}
