@@ -13,8 +13,6 @@ const Offers = () => {
 
 
             <h1 className="text-dark-green ">Confira os nossos encartes de oferta!</h1>
-            <img src={Encarte2} alt="Encarte2" className="img-fluid "/>
-            <h3 className="text-light bg-primary">Encarte semanal - Ofertas validas de <strong>30 de Abril a 1º de Maio</strong> de 2025</h3>
 
             <img src={Encarte3} alt="Encarte3" />
             <img src={Encarte4} alt="Encarte4" />
