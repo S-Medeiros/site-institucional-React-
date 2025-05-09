@@ -25,25 +25,6 @@ const Offers = () => {
             <img src={Encarte4} alt="Encarte4" />
             <h3 className="text-light bg-primary">Encarte Mensal - Ofertas validas de <strong>05 de Maio até o dia 11 de Maio</strong> de 2025</h3>
 
-            <div className="d-flex gap-2 flex-wrap">
-              <div>
-                <img className="w-50" src={Of_flv1} alt="Of-FLV" />
-                <img className="w-50" src={Of_flv2} alt="Of-FLV" />
-              </div>
-              <div>
-                <img className="w-50" src={Of_flv3} alt="Of-FLV" />
-                <img className="w-50" src={Of_flv4} alt="Of-FLV" />
-              </div>
-
-              <h3 className="text-light bg-primary">Encarte Clube de descontos - Ofertas validas de <strong>04 a 06 de Maio</strong> de 2025</h3>
-            </div>
-
-            <img src={Encarte4} alt="Encarte4" />
-            <h3 className="text-light bg-primary">OFERTAS VÁLIDAS DE <strong>30.ABR A 04.MAI DE 2025</strong></h3>
-
-            <img src={EncarteSemanal1} alt="EncarteSemanal" />
-            <img src={EncarteSemanal2} alt="EncarteSemanal" />
-            <h3 className="text-light bg-primary">OFERTAS VALIDADS DE <strong>04 A 06 DE MAIO DE 2025</strong></h3>
 
           <Link 
             target="_blank"
