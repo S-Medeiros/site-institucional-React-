@@ -21,12 +21,12 @@ const MyStores = () => {
             
                     {/* Coluna dos cards - ocupa o restante */}
                     <div className="col-12 col-lg-10 d-flex gap-4 flex-wrap">
-                        <MyStoreCard endereco={'Av. J, 130 - Pref. José Walter, Fortaleza - CE'} horario={'Todos os dias: 6:00 até as 22:00'} />
-                        <MyStoreCard endereco={'Av. I, 1313 - Pref. José Walter, Fortaleza - CE'} horario={'Todos os dias: 6:00 até as 22:00'} />
-                        <MyStoreCard endereco={'Av. XX, n 230 - Cj - Jereissati II, Pacatuba - CE'} horario={'Todos os dias: 6:00 até as 22:00'} />
-                        <MyStoreCard endereco={'R. Gen. Rabelo, 447 - Siqueira, Fortaleza - CE'} horario={'Todos os dias: 6:00 até as 22:00'} />
+                        <MyStoreCard endereco={'Av. J, 130 - Pref. José Walter, Fortaleza - CE'} horario={'Todos os dias: 6:00 até as 22:00'} telefone={'(85)9 9159-2951'} />
+                        <MyStoreCard endereco={'Av. I, 1313 - Pref. José Walter, Fortaleza - CE'} horario={'Todos os dias: 6:00 até as 22:00'} telefone={'(85)9 9158-8829'}/>
+                        <MyStoreCard endereco={'Av. XX, n 230 - Cj - Jereissati II, Pacatuba - CE'} horario={'Todos os dias: 6:00 até as 22:00'} telefone={'(85)9 9159-2951'} />
+                        <MyStoreCard endereco={'R. Gen. Rabelo, 447 - Siqueira, Fortaleza - CE'} horario={'Todos os dias: 6:00 até as 22:00'} telefone={'(85)9 8192-2785'}/>
                         <MyStoreCard endereco={'R. Evaldo Braga, 821 - Conj. Palmeiras, Fortaleza - CE, 60870-210'} horario={'Todos os dias: 6:00 até as 22:00'} />
-                        <MyStoreCard endereco={'R. Roque Medeiros, 1151 - Mondubim , Fortaleza - CE'} horario={'Seg a Sex: 7:00 até às 17:00'} />
+                        <MyStoreCard endereco={'R. Roque Medeiros, 1151 - Mondubim , Fortaleza - CE'} horario={'Seg a Sex: 7:00 até às 17:00'} telefone={'(85)9 3291-2233'}/>
                     </div>
                 </div>
             </div>

@@ -37,6 +37,10 @@ const Footer = () => {
                 <div className="col-xxl-2 coluna-footer">
                     <h4 class="titulos-footer">Atendimento ao cliente:</h4>
                     <p>(85) 3291-2233</p>
+                    <p>Loja 01-(85) 9 9159-2951</p>
+                    <p>Loja 02-(85) 9 9158-8829</p>
+                    <p>Loja 03-(85) 9 8166-0326</p>
+                    <p>Loja 04-(85) 9 8192-2785</p>
                 </div>
                 <div className="col-xxl-2 coluna-footer">
                     <div class="coluna-footer">
