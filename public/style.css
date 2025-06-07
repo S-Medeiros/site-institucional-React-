@@ -385,6 +385,12 @@ ion-icon {
   width: 3rem !important;
 }
 
+.logo-bandeira {
+  width: 30px !important;
+  height: auto !important;
+  object-fit: contain; /* opcional para ajustar imagem ao espaço */
+}
+
 .logo-app-footer {
   display: flex;
   flex-flow: column;
