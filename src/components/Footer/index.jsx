@@ -4,6 +4,28 @@ import AppStore from "../../assets/app-store.png";
 import LogoFacebookPng from "../../assets/icon-facebook.png";
 import LogoInstagramPng from "../../assets/icon-instagram.png";
 import bandeiraCartao from "../../assets/cartoes.png"
+import AleloLogo from "../../assets/alelo-logo.png";
+import BenVisaVale from "../../assets/ben-visa-vale.png";
+import BsCash from "../../assets/bscash.png";
+import Cielo from "../../assets/cielo.png";
+import FortBrasil from "../../assets/fort-brasil-dm.png";
+import GreenCard from "../../assets/greencard.png";
+import Libercard from "../../assets/libercard.png";
+import Mastercard from "../../assets/mastercard.png";
+import Pagseguro from "../../assets/Logonovo_pagseguro-cinza.png";
+import Nutricash from "../../assets/nutricash.png";
+import PersonalCard from "../../assets/personalcard.webp";
+import Sodexo from "../../assets/sodexo.png";
+import TicketLogo from "../../assets/ticket-logo-5.png";
+import Tricad from "../../assets/tricard.png";
+import Up from "../../assets/up.png";
+import Uze from "../../assets/uze-logo.jpeg";
+import ValeCard from "../../assets/vale-card.png";
+import ValeShop from "../../assets/vale-shop.png";
+import VisaEletron from "../../assets/Visa_Electron.png";
+import VrAlimentacao from "../../assets/VR-Alimentação.png";
+
+
 
 const Footer = () => {
     return ( <>
@@ -32,7 +54,28 @@ const Footer = () => {
                 </div>
                 <div className="col-xxl-2 coluna-footer">
                     <h4 className="titulos-footer">Formas de pagamento:</h4>
-                    <img src={bandeiraCartao} alt="cartoes" />
+                    <div className="d-flex flex-wrap justify-content-between align-items-center gap-2">
+                        <img className="logo-bandeira" src={AleloLogo} alt="alelo" />
+                        <img className="logo-bandeira" src={BenVisaVale} alt="ben visa vale" />
+                        <img className="logo-bandeira" src={BsCash} alt="bscash" />
+                        <img className="logo-bandeira" src={Cielo} alt="cielo" />
+                        <img className="logo-bandeira" src={FortBrasil} alt="fort brasil" />
+                        <img className="logo-bandeira" src={GreenCard} alt="green card" />
+                        <img className="logo-bandeira" src={Libercard} alt="libercard" />
+                        <img className="logo-bandeira" src={Mastercard} alt="mastercard" />
+                        <img className="logo-bandeira" src={Pagseguro} alt="pagseguro" />
+                        <img className="logo-bandeira" src={Nutricash} alt="nutricash" />
+                        <img className="logo-bandeira" src={PersonalCard} alt="personal card" />
+                        <img className="logo-bandeira" src={Sodexo} alt="sodexo" />
+                        <img className="logo-bandeira" src={TicketLogo} alt="ticket" />
+                        <img className="logo-bandeira" src={Tricad} alt="tricard" />
+                        <img className="logo-bandeira" src={Up} alt="up" />
+                        <img className="logo-bandeira" src={Uze} alt="uze" />
+                        <img className="logo-bandeira" src={ValeCard} alt="vale card" />
+                        <img className="logo-bandeira" src={ValeShop} alt="vale shop" />
+                        <img className="logo-bandeira" src={VisaEletron} alt="visa eletron" />
+                        <img className="logo-bandeira" src={VrAlimentacao} alt="vr alimentacao" />
+                    </div>
                 </div>
                 <div className="col-xxl-2 coluna-footer">
                     <h4 class="titulos-footer">Atendimento ao cliente:</h4>
