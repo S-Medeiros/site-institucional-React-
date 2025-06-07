@@ -12,33 +12,40 @@ const PageStore = () => {
         Encontre nossa loja mais próxima de você!
       </h1>
 
-      <Row className="g-4 justify-content-center">
-        <Col xs={12} xl={6}>
+      <Row className="g-4 ">
+        <Col className="d-flex justify-content-center" xs={12} xl={6}>
           <Store__pageStore
             imagem={Loja01}
             endereco="Endereço: Av. J, 130 - Pref. José Walter, Fortaleza - CE"
             localizacao="https://maps.app.goo.gl/ku4fR96rSrr2sRwk6"
           />
         </Col>
-        <Col xs={12} xl={6}>
+        <Col className="d-flex justify-content-center" xs={12} xl={6}>
           <Store__pageStore
             imagem={Loja02}
             endereco="Endereço: Av. I, 1313 - Pref. José Walter, Fortaleza - CE"
             localizacao="https://maps.app.goo.gl/ku4fR96rSrr2sRwk6"
           />
         </Col>
-        <Col xs={12} xl={6}>
+        <Col className="d-flex justify-content-center" xs={12} xl={6}>
           <Store__pageStore
             imagem={Loja03}
             endereco="Endereço: Av. XX, n 230 - Cj - Jereissati II, Pacatuba - CE"
             localizacao="https://maps.app.goo.gl/wk2upoHmCNjz8XgJ8"
           />
         </Col>
-        <Col xs={12} xl={6}>
+        <Col className="d-flex justify-content-center" xs={12} xl={6}>
           <Store__pageStore
             imagem={Loja04}
             endereco="Endereço: R. Gen. Rabelo, 447 - Siqueira, Fortaleza - CE"
             localizacao="https://maps.app.goo.gl/6ABSApyN1iz8Sngn9"
+          />
+        </Col>
+        <Col className="d-flex justify-content-center" xs={12} xl={6}>
+          <Store__pageStore
+            imagem={Loja04}
+            endereco="Endereço: R. Evaldo Braga, 821 - Conj.Palmeiras, Fortaleza - CE"
+            localizacao="https://maps.app.goo.gl/juu4Up2YDXJQRAaQ8"
           />
         </Col>
       </Row>
