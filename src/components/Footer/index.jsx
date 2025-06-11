@@ -78,18 +78,20 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="col-xxl-2 coluna-footer">
-                    <h4 class="titulos-footer">Atendimento ao cliente:</h4>
-                    <p>(85) 3291-2233</p>
-                    <p>Loja 01-(85) 9 9159-2951</p>
-                    <p>Loja 02-(85) 9 9158-8829</p>
-                    <p>Loja 03-(85) 9 8166-0326</p>
-                    <p>Loja 04-(85) 9 8192-2785</p>
+                    <h4 className="titulos-footer">Atendimento ao cliente:</h4>
+                    <div className="footer-contato-tel">
+                        <p>(85) 3291-2233</p>
+                        <p>Loja 01-(85) 9 9159-2951</p>
+                        <p>Loja 02-(85) 9 9158-8829</p>
+                        <p>Loja 03-(85) 9 8166-0326</p>
+                        <p>Loja 04-(85) 9 8192-2785</p>
+                    </div>
                 </div>
                 <div className="col-xxl-2 coluna-footer">
-                    <div class="coluna-footer">
-                        <h4 class="titulos-footer">Acompanhe nossos canais:</h4>
+                    <div className="coluna-footer">
+                        <h4 className="titulos-footer">Acompanhe nossos canais:</h4>
                         <div>
-                            <a href="https://www.facebook.com/medeirossupermercados/" target="_blank"><img src={LogoFacebookPng} alt="logo facebook" class="logo-redes-sociais-footer"/></a>
+                            <a href="https://www.facebook.com/medeirossupermercados/" target="_blank"><img src={LogoFacebookPng} alt="logo facebook" className="logo-redes-sociais-footer"/></a>
                             <a href="https://www.instagram.com/medeirossupermercados/" target="_blank"><img src={LogoInstagramPng} alt="logo instagram" className="logo-redes-sociais-footer"/></a>
                         </div>
                     </div>
@@ -119,7 +121,7 @@ const Footer = () => {
 
     <div class="rodape-copyright">
         <p>© 2024 Mercantil Medeiros LTDA. Todos os Direitos Reservados.  
-            Desenvolvido por Francisco Rodrigues.</p>
+            Desenvolvido por <a className="link-copyright" href="https://franciscojose96.github.io/MyPortfolio/">Francisco Rodrigues</a>.</p>
     </div>
     </> );
 }

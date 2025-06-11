@@ -131,6 +131,7 @@ $dark: $custom-dark-green;
 
   & :hover {
     width: 1.8rem !important;
+    transition: 0.5s;
   }
 }
 
@@ -461,10 +462,15 @@ ion-icon {
 
 .titulos-footer {
   font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .logo-redes-sociais-footer {
   width: 3rem !important;
+}
+
+.footer-contato-tel {
+  color: #fff;
 }
 
 .logo-bandeira {
@@ -485,4 +491,11 @@ ion-icon {
   font-size: 1rem;
   text-align: center;
   background-color: #FFFFFF;
+  
+}
+
+.link-copyright {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
 }
