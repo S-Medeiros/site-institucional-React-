@@ -4,6 +4,7 @@ import Loja01 from "../../assets/loja_01.jpg"
 import Loja02 from "../../assets/loja_02.jpg"
 import Loja03 from "../../assets/loja_03.jpeg"
 import Loja04 from "../../assets/loja_04.jpeg"
+import Loja05 from "../../assets/loja_05.jpeg"
 
 const PageStore = () => {
   return (
@@ -43,8 +44,8 @@ const PageStore = () => {
         </Col>
         <Col className="d-flex justify-content-center" xs={12} xl={6}>
           <Store__pageStore
-            imagem={Loja04}
-            endereco="Endereço: R. Evaldo Braga, 821 - Conj.Palmeiras, Fortaleza - CE"
+            imagem={Loja05}
+            endereco="Endereço:R. Evaldo Braga, 821-Conj.Palmeiras, Fortaleza - CE"
             localizacao="https://maps.app.goo.gl/juu4Up2YDXJQRAaQ8"
           />
         </Col>

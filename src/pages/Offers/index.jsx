@@ -15,8 +15,6 @@ const Offers = () => {
 
 
             <h1 className="text-dark-green ">Confira os nossos encartes de oferta!</h1>
-            <img src={EncarteSemanal1} alt="Encarte1" className="img-fluid "/>
-            <img src={EncarteSemanal2} alt="Encarte2" className="img-fluid "/>
             <img src={EncarteSemanal3} alt="Encarte3" className="img-fluid "/>
             <img src={EncarteSemanal4} alt="Encarte4" className="img-fluid "/>
             <img src={EncarteSemanal5} alt="Encarte5" className="img-fluid "/>
