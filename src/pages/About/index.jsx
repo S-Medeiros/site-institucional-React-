@@ -31,7 +31,11 @@ const About = () => {
                 </p>
                 <p><span className="realce">2018</span> - ABERTURA LOJA 02 - FILIAL COM 900M' SITUADA NA AV I N° 1313, JOSÉ WALTER.
                 </p>
+                <p><span className="realce">2018</span> - ABERTURA LOJA 03 - FILIAL ' Av. XX, n 230 - Cj - JEREISSATI II, PACATUBA - CE.
+                </p>
                 <p><span className="realce" >2022</span> - ABERTURA LOJA 04 - FILIAL COM 682M' SITUADA NA R. GENERAL RABELO N° 447, SIQUEIRA
+                </p>
+                <p><span className="realce" >2025</span> - ABERTURA LOJA 05 - FILIAL R. EVALDO BRAGA, 821-CONJ.PALMEIRAS, FORTALEZA - CE.
                 </p>
             </div>
 
