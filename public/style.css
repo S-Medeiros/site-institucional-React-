@@ -190,16 +190,21 @@
 }
 
 /* Esconde por padrão */
-.hide-mobile {
-  display: none !important;
-}
+
 
 /* Mostra a partir de 768px */
-@media (min-width: 992px) {
-  .hide-mobile {
+.img-logo-app,
+.img-mascote-app {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .img-logo-app,
+  .img-mascote-app {
     display: block !important;
   }
 }
+
 .titulo-secao-lojas {
   font-size: 1.8rem;
   width: 3rem;
