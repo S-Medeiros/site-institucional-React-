@@ -13,6 +13,10 @@ const detalhesPrevencao = `Monitora a loja para evitar furtos, perdas e garantir
 const detalhesAuxDeposito = `Auxilia na organização, movimentação e controle de mercadorias no depósito.`
 const detalhesFinanceiro = `Auxilia nas atividades financeiras, como contas a pagar/receber, lançamentos e organização de documentos.`
 const detalhesBalconistaFrios = `Atender clientes no balcão de frios, manter a organização e a higiene do balcão, garantindo a correta exposição e conservação dos queijos, embutidos e outros itens., informações e realizando a pesagem e embalagem.`
+const detalhesEmpacotador = `Responsável por embalar as compras dos clientes, garantindo a organização e a qualidade dos produtos.`;
+const detalhesEstagiario = `Auxilia nas atividades diárias da loja, aprendendo sobre o funcionamento do setor e contribuindo com tarefas diversas.`;
+const detalhesAprendiz = `Programa de aprendizagem para jovens, com foco em desenvolvimento profissional e aprendizado prático em ambiente de trabalho.`;
+const detalhesEntregador = `Realiza a entrega de mercadorias aos clientes, garantindo a pontualidade e a qualidade no atendimento.`;
 
 
 // Estrutura com todas as lojas e vagas
@@ -21,18 +25,19 @@ const lojas = [
     nome: "Loja 1 - Pref. José Walter Av. J",
     vagas: [
       { titulo: "OPERADOR DE CAIXA (ESTÁGIO)", detalhes: detalhesOpCaixa },
-      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
-      { titulo: "(PCD)", detalhes: detalhesOpCaixa },
+      { titulo: "EMPACOTADOR", detalhes: detalhesEmpacotador },
+      { titulo: "PREVENÇÃO DE PERDAS", detalhes: detalhesPrevencao },
+      { titulo: "AUX. DEPOSITO", detalhes: detalhesAuxDeposito },
     ],
   },
   {
     nome: "Loja 2 - Pref. José Walter Av. I",
     vagas: [
-      { titulo: "AJUDANTE DE ENTREGA", detalhes: detalhesAjudanteEntregas },
-      { titulo: "REPOSITOR", detalhes: detalhesRepositor },
-      { titulo: "BALCONISTA DE FRIOS", detalhes: detalhesBalconistaFrios },
-      { titulo: "OPERADOR DE CAIXA (HORISTA)", detalhes: detalhesOpCaixa },
-      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
+      { titulo: "AUX. DEPOSITO", detalhes: detalhesAuxDeposito },
+      { titulo: "REPOSITOR DE FLV", detalhes: detalhesRepositorFlv },
+      { titulo: "ESTAGIARIO", detalhes: detalhesEstagiario },
+      { titulo: "ENTREGADOR (HORISTA)", detalhes: detalhesEntregador },
+      { titulo: "REPOSITOR (APRENDIZ)", detalhes: detalhesRepositor },
     ],
   },
   {
@@ -44,20 +49,13 @@ const lojas = [
     vagas: [
       { titulo: "OPERADOR DE CAIXA", detalhes: detalhesOpCaixa },
       { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
-      { titulo: "REPOSITOR FLV", detalhes: detalhesRepositorFlv },
-      { titulo: "ESTAGIARIO", detalhes: detalhesOpCaixa },
-      { titulo: "APRENDIZ", detalhes: detalhesPrevencao },
+      { titulo: "REPOSITOR", detalhes: detalhesRepositor },
     ],
   },
   {
     nome: "Loja 5 - Conj. Palmeiras",
     vagas: [
-      { titulo: "APRENDIZ", detalhes: detalhesPrevencao },
-      { titulo: "OP.CAIXA (ESTÁGIO / INTEGRAL)", detalhes: detalhesOpCaixa },
       { titulo: "PREVENÇÃO DE PERDAS", detalhes: detalhesPrevencao },
-      { titulo: "AUX. DEPOSITO", detalhes: detalhesAuxDeposito },
-      { titulo: "REPOSITOR DE FRIOS", detalhes: detalhesRepositor },
-      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
     ],
   },
 ];

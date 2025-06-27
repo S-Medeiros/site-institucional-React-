@@ -37,7 +37,7 @@ const Footer = () => {
                     <img src={LogoHeader} alt="logo medeiros" className="logo-rodape"/>
                 </div>
                 <div className="col-xxl-2 coluna-footer">
-                    <h4 class="titulos-footer">Informações</h4>
+                    <h4 class="titulos-footer">Informações:</h4>
 
                     <div className="coluna-footer--opcoes">
                         <div><a className="coluna-footer--opcoes" href="/">Home</a></div>
@@ -85,6 +85,7 @@ const Footer = () => {
                         <p>Loja 02-(85) 9 9158-8829</p>
                         <p>Loja 03-(85) 9 8166-0326</p>
                         <p>Loja 04-(85) 9 8192-2785</p>
+                        <p>Loja 05-(85) 9 8694-0174</p>
                     </div>
                 </div>
                 <div className="col-xxl-2 coluna-footer">
