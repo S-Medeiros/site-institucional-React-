@@ -13,6 +13,7 @@ const detalhesPrevencao = `Monitora a loja para evitar furtos, perdas e garantir
 const detalhesAuxDeposito = `Auxilia na organização, movimentação e controle de mercadorias no depósito.`
 const detalhesFinanceiro = `Auxilia nas atividades financeiras, como contas a pagar/receber, lançamentos e organização de documentos.`
 const detalhesBalconistaFrios = `Atender clientes no balcão de frios, manter a organização e a higiene do balcão, garantindo a correta exposição e conservação dos queijos, embutidos e outros itens., informações e realizando a pesagem e embalagem.`
+const detalhesEmpacotador = `Responsável por embalar as compras dos clientes, garantindo a organização e a qualidade dos produtos.`;
 
 
 // Estrutura com todas as lojas e vagas
@@ -21,8 +22,9 @@ const lojas = [
     nome: "Loja 1 - Pref. José Walter Av. J",
     vagas: [
       { titulo: "OPERADOR DE CAIXA (ESTÁGIO)", detalhes: detalhesOpCaixa },
-      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
-      { titulo: "(PCD)", detalhes: detalhesOpCaixa },
+      { titulo: "EMPACOTADOR", detalhes: detalhesEmpacotador },
+      { titulo: "PREVENÇÃO DE PERDAS", detalhes: detalhesPrevencao },
+      { titulo: "AUX. DEPOSITO", detalhes: detalhesAuxDeposito },
     ],
   },
   {
