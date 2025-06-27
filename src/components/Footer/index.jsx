@@ -85,6 +85,7 @@ const Footer = () => {
                         <p>Loja 02-(85) 9 9158-8829</p>
                         <p>Loja 03-(85) 9 8166-0326</p>
                         <p>Loja 04-(85) 9 8192-2785</p>
+                        <p>Loja 05-(85) 9 8694-0174</p>
                     </div>
                 </div>
                 <div className="col-xxl-2 coluna-footer">
