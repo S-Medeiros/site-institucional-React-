@@ -49,9 +49,7 @@ const lojas = [
     vagas: [
       { titulo: "OPERADOR DE CAIXA", detalhes: detalhesOpCaixa },
       { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
-      { titulo: "REPOSITOR FLV", detalhes: detalhesRepositorFlv },
-      { titulo: "ESTAGIARIO", detalhes: detalhesOpCaixa },
-      { titulo: "APRENDIZ", detalhes: detalhesPrevencao },
+      { titulo: "REPOSITOR", detalhes: detalhesRepositor },
     ],
   },
   {
