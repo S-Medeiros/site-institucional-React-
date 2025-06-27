@@ -55,12 +55,7 @@ const lojas = [
   {
     nome: "Loja 5 - Conj. Palmeiras",
     vagas: [
-      { titulo: "APRENDIZ", detalhes: detalhesPrevencao },
-      { titulo: "OP.CAIXA (ESTÁGIO / INTEGRAL)", detalhes: detalhesOpCaixa },
       { titulo: "PREVENÇÃO DE PERDAS", detalhes: detalhesPrevencao },
-      { titulo: "AUX. DEPOSITO", detalhes: detalhesAuxDeposito },
-      { titulo: "REPOSITOR DE FRIOS", detalhes: detalhesRepositor },
-      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
     ],
   },
 ];
