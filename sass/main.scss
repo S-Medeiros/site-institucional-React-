@@ -1,3 +1,4 @@
+@use "sass:color";
 // @import "/sass/layout/header.scss";
 
 // Definindo variáveis personalizadas (podem ser as mesmas que você já criou)
@@ -309,14 +310,15 @@ $dark: $custom-dark-green;
   justify-content: center;
   align-items: center;
   width: 10rem;
-  height: 2.4rem!important;
+  height: 2.4rem !important;
   border-radius: 2rem;
   box-shadow: 0.2rem 0.8rem 0.4rem rgba(0, 0, 0, 0.15);
   font-weight: 600;
   color: $bg;
   text-decoration: none;
-    &:hover {
-      background-color: darken($color-btn, 10%);
+
+  &:hover {
+    background-color: color.adjust($color-btn, $lightness: -10%);
   }
 }
 
