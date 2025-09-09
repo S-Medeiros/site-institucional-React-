@@ -20,7 +20,7 @@ const ClubeDeDesconto = () => {
                         
                 </div>
 
-                <img src={mascote} alt="mascote" className="w-25" />
+                <img src={mascote} alt="mascote" className="mascote-clube-desconto w-25" />
             </div>
         </Container>
 

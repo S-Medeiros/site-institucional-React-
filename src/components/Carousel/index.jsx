@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import slider1 from "../../assets/slider1.png";
-import slider1 from "../../assets/slider2.png";
+import slider01 from "../../assets/slider1.png";
 
 const ImageCarousel = () => {
   const images = [
     slider1,
-    slider1,
+    slider01,
   ];
 
   const [index, setIndex] = useState(0);

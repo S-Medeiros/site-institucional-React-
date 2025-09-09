@@ -102,7 +102,8 @@
   font-weight: 600 !important;
 }
 
-.img-logo-app {
+.img-logo-app,
+.img-logo-app-store {
   width: 6rem !important;
 }
 
@@ -112,8 +113,8 @@
   gap: 2rem !important;
 }
 .botao-mascote-store .botao-store {
-  display: flex !important;
-  flex-flow: column !important;
+  display: flex;
+  flex-flow: column;
 }
 .botao-mascote-store .img-mascote-app {
   width: 6rem !important;
@@ -146,7 +147,7 @@
 .subtitulo-encartes {
   font-size: 32px;
   color: #228B22;
-  width: 25rem !important;
+  max-width: 25rem !important;
   font-weight: 600;
 }
 
@@ -418,6 +419,26 @@ ion-icon {
   color: black;
   text-decoration: none;
   font-weight: 500;
+}
+
+@media (max-width: 576px) {
+  .img-logo-app,
+  .img-mascote-app {
+    display: none !important;
+  }
+  .img-logo-app-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .paragrafo-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mascote-clube-desconto {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

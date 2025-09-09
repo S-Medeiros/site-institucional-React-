@@ -25,11 +25,15 @@ const BaixeApp = () => {
               />
             </Col>
           </Col>
+
+
           <Col className="d-flex" sm={12} md={12} lg={4}>
             <Col sm={12} md={4} lg={12} className="text-center d-flex align-items-center">
               <p className="paragrafo-app">BAIXE O APLICATIVO: MEDEIROS SUPERMERCADO</p>
             </Col>
           </Col>
+
+
           <Col className="botao-mascote-store" sm={12} md={12} lg={4}>
             <Col sm={4} md={4} lg={4} className="text-center">
               <div className="botao-store">
@@ -41,7 +45,7 @@ const BaixeApp = () => {
                   <img
                     src={AppStore}
                     alt="app store"
-                    className="img-logo-app "
+                    className="img-logo-app-store "
                     
                   />
                 </a>
@@ -53,7 +57,7 @@ const BaixeApp = () => {
                   <img
                     src={PlayStore}
                     alt="play store"
-                    className="img-logo-app mt-2"
+                    className="img-logo-app-store mt-2"
                   />
                 </a>
               </div>
