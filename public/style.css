@@ -250,6 +250,10 @@
   background-color: rgb(178, 124.3668122271, 0);
 }
 
+.img-encarte {
+  max-width: 20rem;
+}
+
 .card-loja {
   background-color: #387543;
   display: flex;
