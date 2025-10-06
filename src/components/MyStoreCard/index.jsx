@@ -1,26 +1,23 @@
-
 import { Link } from "react-router-dom";
 
-const MyStoreCard = ({endereco, horario, telefone}) => {
-    return ( <>
-            <div className="card-mystore">
-                <div className=".content-card-store">
-                    <p><strong>Endereço:</strong> {endereco}</p>
-                    <p><strong>Horario de funcionamento:</strong> {horario}</p>
-                    <p><strong>Tel:</strong> {telefone}</p>
+const MyStoreCard = ({ store }) => {
+  return (
+    <div className="card-mystore">
+      <div className="content-card-store">
+        <p><strong>Endereço:</strong> {store.endereco}</p>
+        <p><strong>Horário de funcionamento:</strong> {store.horario}</p>
+        <p><strong>Tel:</strong> {store.telefone}</p>
+      </div>
 
-                </div>
-                
-                    <Link
-                    className="d-flex justify-content-center btn-card"
-                    to="./lojas" 
-                    target="_blank"
-                    >
-                        VER LOJA
-                    </Link>
+      <Link
+        className="d-flex justify-content-center btn-card"
+        to={store.link}
+        target="_blank"
+      >
+        VER LOJA
+      </Link>
+    </div>
+  );
+};
 
-            </div>
-    </> );
-}
- 
 export default MyStoreCard;
