@@ -1,64 +1,7 @@
 import { Container, Button } from "react-bootstrap";
 import { useState } from "react";
-import CardVacancies from "../../components/CardVacancies/index.jsx";
-import Vaga1 from "../../assets/Frame2.jpg";
-import trabalheConosco from "../../assets/trabalhe-conosco-mascote.jpg"
-
-const detalhesOpCaixa = `Atividades: Registra vendas, recebe pagamentos e fornece troco aos clientes.`;
-const detalhesFrenteDeLoja = `Responsável pelo auxilio aos operadores e gerente de loja. Realiza sangria, cancelamentos e atendimento ao cliente.`;
-const detalhesAjudanteEntregas = `Auxilia na carga, descarga e entrega de mercadorias.`;
-const detalhesRepositor = `Organiza e repõe produtos nas prateleiras da loja.`
-const detalhesRepositorFlv = `Cuida da organização, reposição e qualidade de frutas, verduras e legumes.`
-const detalhesPrevencao = `Monitora a loja para evitar furtos, perdas e garantir a segurança.`
-const detalhesAuxDeposito = `Auxilia na organização, movimentação e controle de mercadorias no depósito.`
-const detalhesFinanceiro = `Auxilia nas atividades financeiras, como contas a pagar/receber, lançamentos e organização de documentos.`
-const detalhesBalconistaFrios = `Atender clientes no balcão de frios, manter a organização e a higiene do balcão, garantindo a correta exposição e conservação dos queijos, embutidos e outros itens., informações e realizando a pesagem e embalagem.`
-const detalhesEmpacotador = `Responsável por embalar as compras dos clientes, garantindo a organização e a qualidade dos produtos.`;
-const detalhesEstagiario = `Auxilia nas atividades diárias da loja, aprendendo sobre o funcionamento do setor e contribuindo com tarefas diversas.`;
-const detalhesAprendiz = `Programa de aprendizagem para jovens, com foco em desenvolvimento profissional e aprendizado prático em ambiente de trabalho.`;
-const detalhesEntregador = `Realiza a entrega de mercadorias aos clientes, garantindo a pontualidade e a qualidade no atendimento.`;
-
-
-// Estrutura com todas as lojas e vagas
-const lojas = [
-  {
-    nome: "Loja 1 - Pref. José Walter Av. J",
-    vagas: [
-      { titulo: "OPERADOR DE CAIXA (ESTÁGIO)", detalhes: detalhesOpCaixa },
-      { titulo: "EMPACOTADOR", detalhes: detalhesEmpacotador },
-      { titulo: "PREVENÇÃO DE PERDAS", detalhes: detalhesPrevencao },
-      { titulo: "AUX. DEPOSITO", detalhes: detalhesAuxDeposito },
-    ],
-  },
-  {
-    nome: "Loja 2 - Pref. José Walter Av. I",
-    vagas: [
-      { titulo: "AUX. DEPOSITO", detalhes: detalhesAuxDeposito },
-      { titulo: "REPOSITOR DE FLV", detalhes: detalhesRepositorFlv },
-      { titulo: "ESTAGIARIO", detalhes: detalhesEstagiario },
-      { titulo: "ENTREGADOR (HORISTA)", detalhes: detalhesEntregador },
-      { titulo: "REPOSITOR (APRENDIZ)", detalhes: detalhesRepositor },
-    ],
-  },
-  {
-    nome: "Loja 3 - Pacatuba",
-    vagas: [],
-  },
-  {
-    nome: "Loja 4 - Siqueira",
-    vagas: [
-      { titulo: "OPERADOR DE CAIXA", detalhes: detalhesOpCaixa },
-      { titulo: "FRENTE DE LOJA", detalhes: detalhesFrenteDeLoja },
-      { titulo: "REPOSITOR", detalhes: detalhesRepositor },
-    ],
-  },
-  {
-    nome: "Loja 5 - Conj. Palmeiras",
-    vagas: [
-      { titulo: "PREVENÇÃO DE PERDAS", detalhes: detalhesPrevencao },
-    ],
-  },
-];
+import CardVacancies from "../../components/CardVacancies";
+import jobsData from "../../data/jobsData";
 
 const PageWork = () => {
   const [visiveis, setVisiveis] = useState({});
@@ -70,12 +13,15 @@ const PageWork = () => {
   return (
     <Container className="p-5 d-flex flex-column gap-5">
       <div className="text-dark-green">
-        <h1>Venha fazer parte da família Medeiros!</h1>
-        <h2>Oportunidades abertas:</h2>
+        <h1>{jobsData.descricaoGeral.titulo}</h1>
+        <h2>{jobsData.descricaoGeral.subtitulo}</h2>
       </div>
-      <h4>Envie seu currículo para o E-MAIL <br /><span className="clubeSpan" >vagas@medeirossupermercado.com.br</span></h4>
+      <h4>
+        Envie seu currículo para o E-MAIL <br />
+        <span className="clubeSpan">{jobsData.descricaoGeral.email}</span>
+      </h4>
 
-      {lojas.map((loja, index) => (
+      {jobsData.lojas.map((loja, index) => (
         <div key={index}>
           <div className="d-flex align-items-center justify-content-between">
             <h3 className="m-0">{loja.nome}</h3>
@@ -94,7 +40,7 @@ const PageWork = () => {
                 loja.vagas.map((vaga, idx) => (
                   <CardVacancies
                     key={idx}
-                    imagem={trabalheConosco}
+                    imagem={vaga.imagem}
                     titulo={vaga.titulo}
                     detalhes={vaga.detalhes}
                   />
