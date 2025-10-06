@@ -1,10 +1,12 @@
 import { Container } from "react-bootstrap";
 import EncarteSemanal0 from "../../assets/encartes/01.jpg";
 import EncarteSemanal1 from "../../assets/encartes/02.jpg";
-import EncarteSemanal2 from "../../assets/encartes/1CARNE.jpg";
-import EncarteSemanal3 from "../../assets/encartes/2CARNE.jpg";
-import EncarteSemanal4 from "../../assets/encartes/3CARNE.jpg";
-import EncarteSemanal5 from "../../assets/encartes/4CARNE.jpg";
+import EncarteSemanal2 from "../../assets/encartes/04.jpeg";
+import EncarteSemanal3 from "../../assets/encartes/05.jpeg";
+import EncarteSemanal4 from "../../assets/encartes/06.jpeg";
+import EncarteSemanal5 from "../../assets/encartes/07.jpeg";
+import EncarteSemanal6 from "../../assets/encartes/08.jpeg";
+import EncarteSemanal7 from "../../assets/encartes/09.jpeg";
 
 import { Link } from "react-router-dom";
 
@@ -25,6 +27,11 @@ const Offers = () => {
               <div className="d-flex gap-3 w-50">
                 <img src={EncarteSemanal4} alt="Encarte4" className="img-fluid "/>
                 <img src={EncarteSemanal5} alt="Encarte5" className="img-fluid "/>
+              </div>
+
+              <div className="d-flex gap-3 w-50">
+                <img src={EncarteSemanal6} alt="Encarte4" className="img-fluid "/>
+                <img src={EncarteSemanal7} alt="Encarte5" className="img-fluid "/>
               </div>
 
           <Link 
