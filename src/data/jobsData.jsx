@@ -13,55 +13,41 @@ const jobsData = {
       nome: "Loja 1 - Pref. José Walter Av. J",
       vagas: [
         {
-          titulo: "OPERADOR DE CAIXA (ESTÁGIO)",
+          titulo: "OPERADOR DE CAIXA",
           detalhes: "Atividades: Registra vendas, recebe pagamentos e fornece troco aos clientes.",
           imagem: trabalheConosco,
         },
         {
-          titulo: "EMPACOTADOR",
+          titulo: "EMPACOTADOR (APRENDIZ)",
           detalhes: "Responsável por embalar as compras dos clientes, garantindo a organização e a qualidade dos produtos.",
           imagem: trabalheConosco,
         },
         {
-          titulo: "PREVENÇÃO DE PERDAS",
-          detalhes: "Monitora a loja para evitar furtos, perdas e garantir a segurança.",
+          titulo: "REPOSITOR DE FRIOS",
+          detalhes: "Organiza e repõe produtos nas prateleiras da loja.",
           imagem: trabalheConosco,
         },
+        ,
         {
-          titulo: "AUX. DEPOSITO",
-          detalhes: "Auxilia na organização, movimentação e controle de mercadorias no depósito.",
+          titulo: "REPOSITOR MERCEARIA",
+          detalhes: "Organiza e repõe produtos nas prateleiras da loja.",
           imagem: trabalheConosco,
-        },
+        }
       ],
     },
     {
       nome: "Loja 2 - Pref. José Walter Av. I",
       vagas: [
         {
-          titulo: "AUX. DEPOSITO",
-          detalhes: "Auxilia na organização, movimentação e controle de mercadorias no depósito.",
-          imagem: trabalheConosco,
-        },
-        {
-          titulo: "REPOSITOR DE FLV",
-          detalhes: "Cuida da organização, reposição e qualidade de frutas, verduras e legumes.",
-          imagem: trabalheConosco,
-        },
-        {
-          titulo: "ESTAGIARIO",
-          detalhes: "Auxilia nas atividades diárias da loja, aprendendo sobre o funcionamento do setor e contribuindo com tarefas diversas.",
+          titulo: "OPERADOR DE CAIXA (ESTÁGIO)",
+          detalhes: "Atividades: Registra vendas, recebe pagamentos e fornece troco aos clientes.",
           imagem: trabalheConosco,
         },
         {
           titulo: "ENTREGADOR (HORISTA)",
           detalhes: "Realiza a entrega de mercadorias aos clientes, garantindo a pontualidade e a qualidade no atendimento.",
           imagem: trabalheConosco,
-        },
-        {
-          titulo: "REPOSITOR (APRENDIZ)",
-          detalhes: "Organiza e repõe produtos nas prateleiras da loja.",
-          imagem: trabalheConosco,
-        },
+        }
       ],
     },
     {
@@ -77,12 +63,7 @@ const jobsData = {
           imagem: trabalheConosco,
         },
         {
-          titulo: "FRENTE DE LOJA",
-          detalhes: "Responsável pelo auxilio aos operadores e gerente de loja. Realiza sangria, cancelamentos e atendimento ao cliente.",
-          imagem: trabalheConosco,
-        },
-        {
-          titulo: "REPOSITOR",
+          titulo: "REPOSITOR DE FRIOS",
           detalhes: "Organiza e repõe produtos nas prateleiras da loja.",
           imagem: trabalheConosco,
         },
@@ -92,8 +73,13 @@ const jobsData = {
       nome: "Loja 5 - Conj. Palmeiras",
       vagas: [
         {
-          titulo: "PREVENÇÃO DE PERDAS",
-          detalhes: "Monitora a loja para evitar furtos, perdas e garantir a segurança.",
+          titulo: "APRENDIZ SETOR QUALIDADE",
+          detalhes: "Qualidade: Setor essencial que verifica a qualidade dos produtos, controla o estoque e assegura as condições ideais de armazenamento em nossa loja.",
+          imagem: trabalheConosco,
+        },
+        {
+          titulo: "OPERADOR DE CAIXA",
+          detalhes: "Atividades: Registra vendas, recebe pagamentos e fornece troco aos clientes.",
           imagem: trabalheConosco,
         },
       ],
