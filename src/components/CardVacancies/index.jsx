@@ -1,7 +1,6 @@
-const CardVacancies = ({ imagem, titulo, detalhes }) => {
+const CardVacancies = ({titulo, detalhes }) => {
   return (
     <div className="card-vaga expanded">
-      <img src={imagem} alt={titulo} className="imagem-vaga" />
 
       <h5 className="titulo-vaga">{titulo}</h5>
 
