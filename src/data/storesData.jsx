@@ -17,7 +17,7 @@ const storesData = [
     id: 3,
     endereco: "Av. XX, n 230 - Cj - Jereissati II, Pacatuba - CE",
     horario: "Todos os dias: 6:00 até as 22:00",
-    telefone: "(85)9 9159-2951",
+    telefone: "(85)9 8166-0326",
     link: "./lojas"
   },
   {
@@ -33,13 +33,6 @@ const storesData = [
     horario: "Todos os dias: 6:00 até as 22:00",
     telefone: "(85) 9 8694-0174",
     link: "./lojas"
-  },
-  {
-    id: 6,
-    endereco: "R. Roque Medeiros, 1151 - Mondubim , Fortaleza - CE",
-    horario: "Seg a Sex: 7:00 até às 17:00",
-    telefone: "(85)9 3291-2233",
-    link: "./lojas",
   }
 ];
 
