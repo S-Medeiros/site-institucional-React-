@@ -33,13 +33,6 @@ const storesData = [
     horario: "Todos os dias: 6:00 até as 22:00",
     telefone: "(85) 9 8694-0174",
     link: "./lojas"
-  },
-  {
-    id: 6,
-    endereco: "R. Roque Medeiros, 1151 - Mondubim , Fortaleza - CE",
-    horario: "Seg a Sex: 7:00 até às 17:00",
-    telefone: "(85)9 3291-2233",
-    link: "./lojas",
   }
 ];
 
