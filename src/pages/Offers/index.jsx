@@ -4,7 +4,6 @@ import EncarteSemanal2 from "../../assets/encartes/02.jpeg";
 import EncarteSemanal3 from "../../assets/encartes/03.jpeg";
 import EncarteSemanal4 from "../../assets/encartes/04.jpeg";
 import EncarteSemanal5 from "../../assets/encartes/05.jpeg";
-import EncarteSemanal6 from "../../assets/encartes/06.jpeg";
 import EncarteSemanal7 from "../../assets/encartes/07.jpeg";
 import EncarteSemanal8 from "../../assets/encartes/08.jpeg";
 import EncarteSemanal9 from "../../assets/encartes/09.jpeg";
@@ -30,14 +29,13 @@ const Offers = () => {
               </div>
               <div className="d-flex gap-3 w-50">
                 <img src={EncarteSemanal5} alt="Encarte3" className="img-fluid "/>
-                <img src={EncarteSemanal6} alt="Encarte3" className="img-fluid "/>
-              </div>
-              <div className="d-flex gap-3 w-50">
                 <img src={EncarteSemanal7} alt="Encarte3" className="img-fluid "/>
-                <img src={EncarteSemanal8} alt="Encarte3" className="img-fluid "/>
               </div>
               <div className="d-flex gap-3 w-50">
+                <img src={EncarteSemanal8} alt="Encarte3" className="img-fluid "/>
                 <img src={EncarteSemanal9} alt="Encarte3" className="img-fluid "/>
+              </div>
+              <div className="d-flex gap-3 w-50">
                 <img src={EncarteSemanal10} alt="Encarte3" className="img-fluid "/>
               </div>
 
