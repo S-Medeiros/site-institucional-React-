@@ -13,7 +13,7 @@ const ClubeDeDesconto = () => {
                     <Link
                       target="_blank"
                       to="https://cadastramento-medeiros.mercafacil.com/home"
-                      className="btn-encarte d-flex justify-content-center border border-success"
+                      className="btn-encarte border-success"
                     >
                       Cadastre-se agora
                     </Link>

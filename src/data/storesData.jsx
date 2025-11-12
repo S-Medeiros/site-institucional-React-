@@ -17,7 +17,7 @@ const storesData = [
     id: 3,
     endereco: "Av. XX, n 230 - Cj - Jereissati II, Pacatuba - CE",
     horario: "Todos os dias: 6:00 até as 22:00",
-    telefone: "(85)9 9159-2951",
+    telefone: "(85)9 8166-0326",
     link: "./lojas"
   },
   {
