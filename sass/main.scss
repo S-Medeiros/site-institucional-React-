@@ -388,7 +388,7 @@ ion-icon {
 //Trabalhe conosco
 
 .card-vaga {
-  background-color: orange; /* sempre laranja */
+  background-color: #5c7961;
   border-radius: 15px;
   width: 300px;
   padding: 1rem;
@@ -397,11 +397,11 @@ ion-icon {
   flex-direction: column;
   justify-content: flex-start;
   overflow: hidden;
-  min-height: 420px; /* altura mínima */
+  min-height: 420px; 
 }
 
 .card-vaga.expanded {
-  min-height: auto; /* libera altura conforme conteúdo */
+  min-height: auto;
 }
 
 .imagem-vaga {
