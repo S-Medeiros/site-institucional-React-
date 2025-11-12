@@ -49,7 +49,6 @@ const Offers = () => {
             BAIXE NOSSO ENCARTE
           </Link>
         </div>
-
     </Container>
     
     </> );
