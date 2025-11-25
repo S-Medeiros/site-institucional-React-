@@ -18,7 +18,7 @@ const PageStore = () => {
           <Store__pageStore
             imagem={Loja01}
             endereco="Endereço: Av. J, 130 - Pref. José Walter, Fortaleza - CE"
-            localizacao="https://maps.app.goo.gl/ku4fR96rSrr2sRwk6"
+            localizacao="https://maps.app.goo.gl/4DecPGGyjJ4HbHwr6"
           />
         </Col>
         <Col className="d-flex justify-content-center" xs={12} xl={6}>
