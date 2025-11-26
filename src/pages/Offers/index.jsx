@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
 import EncarteSemanal1 from "../../assets/encartes/01.jpeg";
+import EncarteSemanal2 from "../../assets/encartes/02.jpeg";
+import EncarteSemanal3 from "../../assets/encartes/03.jpeg";
+import EncarteSemanal4 from "../../assets/encartes/04.jpeg";
 import EncarteSemanal5 from "../../assets/encartes/05.jpeg";
-/*import EncarteSemanal3 from "../../assets/encartes/03.png";
-import EncarteSemanal4 from "../../assets/encartes/04.png";
-import EncarteSemanal5 from "../../assets/encartes/05.jpeg";
-import EncarteSemanal7 from "../../assets/encartes/07.jpeg";
+/*import EncarteSemanal7 from "../../assets/encartes/07.jpeg";
 import EncarteSemanal8 from "../../assets/encartes/08.jpeg";
 import EncarteSemanal9 from "../../assets/encartes/09.jpeg";
 import EncarteSemanal10 from "../../assets/encartes/010.jpeg";*/
@@ -19,11 +19,11 @@ const Offers = () => {
 
             <h1 className="text-dark-green ">Confira os nossos encartes de oferta!</h1>
               <img src={EncarteSemanal1} alt="Encarte1" className="img-fluid"/>
-             
-
-              
-
+              <img src={EncarteSemanal2} alt="Encarte2" className="img-fluid"/>
+              <img src={EncarteSemanal3} alt="Encarte3" className="img-fluid"/>
+              <img src={EncarteSemanal4} alt="Encarte4" className="img-fluid"/>
               <img src={EncarteSemanal5} alt="Encarte5" className="img-fluid"/>
+
 
           <Link 
             target="_blank"
