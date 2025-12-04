@@ -23,10 +23,14 @@ const Offers = () => {
               <img src={EncarteSemanal4} alt="Encarte4" className="img-fluid"/>
               <img src={EncarteSemanal5} alt="Encarte5" className="img-fluid"/>
               <img src={EncarteSemanal6} alt="Encarte5" className="img-fluid"/>
-              <img src={EncarteSemanal7} alt="Encarte5" className="img-fluid"/>
-              <img src={EncarteSemanal8} alt="Encarte5" className="img-fluid"/>
-              <img src={EncarteSemanal9} alt="Encarte5" className="img-fluid"/>
-              <img src={EncarteSemanal10} alt="Encarte5" className="img-fluid"/>
+              <div className="d-flex w-50 gap-3">
+                <img src={EncarteSemanal7} alt="Encarte5" className="img-fluid"/>
+                <img src={EncarteSemanal8} alt="Encarte5" className="img-fluid"/>
+              </div>
+              <div className="d-flex w-50 gap-3">
+                <img src={EncarteSemanal9} alt="Encarte5" className="img-fluid"/>
+                <img src={EncarteSemanal10} alt="Encarte5" className="img-fluid"/>
+              </div>
 
           <Link 
             target="_blank"
