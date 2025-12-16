@@ -1,17 +1,14 @@
 import { Container } from "react-bootstrap";
-import EncarteSemanal1 from "../../assets/encartes/01.jpg";
-import EncarteSemanal2 from "../../assets/encartes/02.jpg";
-import EncarteSemanal3 from "../../assets/encartes/03.jpg";
-import EncarteSemanal4 from "../../assets/encartes/04.png";
-import EncarteSemanal5 from "../../assets/encartes/1CARNE.png";
-import EncarteSemanal6 from "../../assets/encartes/2CARNE.png";
-import EncarteSemanal7 from "../../assets/encartes/3CARNE.png";
-import EncarteSemanal8 from "../../assets/encartes/4CARNE.png";
-import EncarteSemanal9 from "../../assets/encartes/5CARNE.png";
-import EncarteSemanal10 from "../../assets/encartes/clube01.jpg";
-import EncarteSemanal11 from "../../assets/encartes/clube02.jpg";
-import EncarteSemanal12 from "../../assets/encartes/clube03.jpg";
-import EncarteSemanal13 from "../../assets/encartes/clube04.jpg";
+import EncarteSemanal1 from "../../assets/encartes/01.jpeg";
+import EncarteSemanal2 from "../../assets/encartes/02.jpeg";
+import EncarteSemanal3 from "../../assets/encartes/03.jpeg";
+import EncarteSemanal4 from "../../assets/encartes/04.jpeg";
+import EncarteSemanal10 from"../../assets/encartes/05.jpeg";
+import EncarteSemanal5 from "../../assets/encartes/CARNE01.jpeg";
+import EncarteSemanal6 from "../../assets/encartes/CARNE02.jpeg";
+import EncarteSemanal7 from "../../assets/encartes/CARNE03.jpeg";
+import EncarteSemanal8 from "../../assets/encartes/CARNE04.jpeg";
+import EncarteSemanal9 from "../../assets/encartes/CARNE05.jpeg";
 import { Link } from "react-router-dom";
 
 
@@ -34,9 +31,6 @@ const Offers = () => {
               </div>
               <img src={EncarteSemanal9} alt="Encarte9" className="img-fluid"/>
               <img src={EncarteSemanal10} alt="Encarte10" className="img-fluid"/>
-              <img src={EncarteSemanal11} alt="Encarte11" className="img-fluid"/>
-              <img src={EncarteSemanal12} alt="Encarte12" className="img-fluid"/>
-              <img src={EncarteSemanal13} alt="Encarte13" className="img-fluid"/>
           <Link 
             target="_blank"
             to="https://drive.google.com/drive/folders/1AlLyojjIG41AMrJc-_-aCtztK5tEKoYZ"
