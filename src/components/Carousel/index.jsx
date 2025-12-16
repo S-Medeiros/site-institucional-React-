@@ -10,7 +10,7 @@ const ImageCarousel = () => {
   const slides = [
     {
       image: slider2,
-      link: "https://linktr.ee/medeirossupermercados?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnA0y05HuWtUcWYgaJ6GDCbQGWdIam3OfnMXll40wcm67J2xryJ-KhotUYn30_aem_o7b4WKz3FbRzrQeqlW7EhA",
+      link: "https://whats.idsolucoesweb.com.br/v2/bot/medeiros/pagina",
     },
     {
       image: slider1,
